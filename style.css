@@ -1,0 +1,296 @@
+:root {
+  --Flokkur-fólksins: #ffd500;
+  --Framsóknarflokkur: #009a3d;
+  --Miðflokkurinn: #003399;
+  --Samfylkingin: #e5002b;
+  --Sjálfstæðisflokkur: #003078;
+  --Viðreisn: #ff8200;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: #444;
+  background-color: #f3f3f3;
+  height: 100vh;
+  padding: 2rem;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+}
+
+#profile-container {
+  display: flex;
+  align-items: left;
+  gap: 1rem;
+}
+
+/* DROPDOWN MENU */
+.searchable-container {
+  position: relative;
+  width: 200px;
+}
+
+.searchable-dropdown {
+  width: 100%;
+  padding: 6px;
+  box-sizing: border-box;
+}
+
+.searchable-list {
+  position: absolute;
+  width: 100%;
+  border: 1px solid #ccc;
+  border-top: none;
+  background: white;
+  max-height: 150px;
+  overflow-y: auto;
+  display: none;
+  z-index: 100;
+}
+
+.searchable-item {
+  padding: 6px;
+  cursor: pointer;
+}
+
+.searchable-item:hover {
+  background: #f0f0f0;
+}
+
+.logo {
+  height: 5vh;
+}
+
+.pageTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.profile_picture {
+  height: 20vh;
+  border: 2px solid purple;
+}
+/* EFNISFLOKKAR */
+.yfirflokkur-div {
+  display: inline-block;
+  inline-size: fit-content;
+  block-size: fit-content;
+  margin: 0.2em;
+  padding: 0.5em 1em;
+  border: 2px solid #d0d0d5;
+  border-radius: 0.8em;
+  cursor: pointer;
+}
+
+.yfirflokkur-txt {
+  font-weight: 600;
+}
+
+/* HEADINGS */
+h1 {
+  max-width: 37.25rem;
+  margin: 0 1rem;
+  padding: 1.5rem 1rem;
+}
+
+h1 .flex {
+  display: flex;
+  flex-direction: column-reverse;
+  gap: 1rem;
+}
+
+h1 .flex span:first-of-type {
+  font-size: 0.7em;
+}
+
+h1 .flex span:last-of-type {
+  font-size: 1.2em;
+}
+
+section {
+  max-width: 80rem;
+  margin: 0 auto;
+  border: 2px solid #d0d0d5;
+}
+
+#years {
+  display: flex;
+  justify-content: flex-end;
+  position: sticky;
+  z-index: 999;
+  top: 0;
+  background: #0a0a23;
+  color: #fff;
+  padding: 0.5rem calc(1.25rem + 2px) 0.5rem 0;
+  margin: 0 -2px;
+}
+
+#years span[class] {
+  font-weight: bold;
+  width: 4.5rem;
+  text-align: right;
+}
+
+.table-wrap {
+  padding: 0 0.75rem 1.5rem 0.75rem;
+}
+
+table {
+  border-collapse: collapse;
+  border: 0;
+  width: 100%;
+  position: relative;
+}
+
+/* CAPTION NO LONGER IN USE
+  table caption {
+  color: #356eaf;
+  font-size: 1.3em;
+  font-weight: normal;
+  position: absolute;
+  top: -2.25rem;
+  left: 0.5rem;
+} */
+/* Table Heads */
+
+thead {
+  display: flex;
+}
+
+thead tr {
+  margin: 1rem 0;
+}
+
+thead th {
+  padding-right: 2rem;
+}
+
+.dags-container {
+  display: flex;
+  align-items: center;
+}
+
+/*DAGS. ARROW*/
+.arrow-up {
+  width: 0;
+  height: 0;
+  margin: 0 0.5rem;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 12px solid black;
+  cursor: pointer;
+  transition: transform 0.25s ease;
+}
+
+.arrow-rotated {
+  transform: rotate(180deg);
+}
+
+/* thead tbody td {
+  width: 100vw;
+  min-width: 4rem;
+  max-width: 4rem;
+} */
+
+tbody th {
+  display: inline-block;
+  inline-size: fit-content;
+  block-size: fit-content;
+}
+
+tr[class='total'] {
+  border-bottom: 4px double #0a0a23;
+  font-weight: bold;
+}
+
+tr[class='total'] th {
+  text-align: left;
+  padding: 0.5rem 0 0.25rem 0.5rem;
+}
+
+tr.total td {
+  text-align: center;
+  padding: 0 0.25rem;
+}
+
+.mal th {
+  text-align: left;
+  padding-right: 0.8rem;
+}
+
+/*FOLDING ARROW*/
+
+.fold-arrow {
+  display: inline-block;
+  margin-right: 0.5rem;
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.fold-arrow.open {
+  transform: rotate(90deg);
+}
+
+/* VOTES */
+
+td {
+  inline-size: fit-content;
+  block-size: fit-content;
+  padding: 0;
+  width: 12px;
+  text-align: center;
+}
+
+.vote {
+  height: 10px;
+  width: 10px;
+  border-radius: 50%;
+  margin: 0 1rem;
+}
+
+.já {
+  background-color: green;
+}
+
+.nei {
+  background-color: red;
+}
+
+.greiðir-ekki-atkvæði {
+  background-color: yellow;
+}
+
+.boðaði-fjarvist {
+  background-color: grey;
+}
+
+.fjarverandi {
+  background-color: darkblue;
+}
+
+.even {
+  background-color: #fff;
+}
+
+.odd {
+  background-color: #d0d0d5;
+}
+
+.hidden {
+  display: none;
+}
