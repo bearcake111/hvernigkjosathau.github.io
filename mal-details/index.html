@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Hvernig kjósa þau?</title>
+  </head>
+  <body>
+    <!-- TOP NAVIGATION -->
+    <nav>
+      <div class="page-title">
+        <h1>Hvernig kjósa þau?</h1>
+      </div>
+      <div id="tab-thingmenn" class="site-button">
+        <h2>Þingmenn</h2>
+      </div>
+      <div id="tab-malaskra" class="site-button curr-tab">
+        <h2>Leita í málaskrá</h2>
+      </div>
+    </nav>
+
+    <main class="app">
+      <section id="thingmadur-valinn">
+        <!-- Thingfolk -->
+        <div id="description-container" class="container">
+          <h2 id="mal-label">Mál 23</h2>
+          <p>Dags.</p>
+          <p id="mal-date">24.12.2024</p>
+          <h3 id="mal-status">Staða: Samþykkt</h3>
+          <p>
+            Fylgiskjöl:
+            <a id="mal-documents" href="thingmenn-profile.png" target="_blank"
+              >Opna skjal</a
+            >
+          </p>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr class="table-descriptions">
+                <th class="category-name">Þingmaður</th>
+                <th class="category-party">Flokkur</th>
+                <th class="vote-description">Já</th>
+                <th class="vote-description">Nei</th>
+                <th class="vote-description">Greiddi ekki atkvæði</th>
+                <th class="vote-description">Fjarvist</th>
+                <th class="vote-description">Fjarverandi</th>
+              </tr>
+            </thead>
+            <tbody class="thingmenn-container">
+              <tr>
+                <th>Jón Jónsson</th>
+                <th>Flokkur</th>
+                <td><div class="vote já"></div></td>
+                <td><div class="vote nei"></div></td>
+                <td><div class="vote greiðir-ekki-atkvæði"></div></td>
+                <td><div class="vote boðaði-fjarvist"></div></td>
+                <td><div class="vote fjarverandi"></div></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <script src="details.js"></script>
+  </body>
+</html>

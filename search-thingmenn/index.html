@@ -1,0 +1,189 @@
+<!--  greiðirekkiatkvæði er oft kallað að sitja hjá - þingmaðurinn var í þingsalnum og ýtti á takkann greiðir ekki atkvæði  -->
+<!--  boðaði fjarvist, þingmaðurinn tilkynnti t.d. veikindi eða var í erindigjörðum á vegum Alþingis  -->
+<!--  fjarverandi, þingmaðurinn ýtti ekki á takka og hafði ekki boðað fjarvist  -->
+<!-- CLEAN Switch out icelandic for english wherever neccessary -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="/icon.png" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:400,500,600&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+    <title>Hvernig kjósa þau?</title>
+  </head>
+  <body>
+    <!-- TOP NAVIGATION -->
+    <nav>
+      <div class="page-title">
+        <h1>Hvernig kjósa þau?</h1>
+      </div>
+      <div id="tab-thingmenn" class="site-button curr-tab">
+        <h2>Þingmenn</h2>
+      </div>
+      <div id="tab-malaskra" class="site-button">
+        <h2>Leita í málaskrá</h2>
+      </div>
+    </nav>
+
+    <main class="app">
+      <section id="velja-thingmann" class="hidden"></section>
+      <section id="thingmadur-valinn">
+        <!-- Thingfolk -->
+        <div id="profile-container" class="container">
+          <div class="profile-container">
+            <div class="image-wrapper">
+              <img
+                src="thingmenn-profile.jpg"
+                alt="profile-picture"
+                class="profile_picture"
+              />
+              <div class="name-banner">
+                <p id="profile-name" class="name-text"></p>
+              </div>
+            </div>
+          </div>
+          <h3>
+            Flokkur:
+            <p id="label-party">Þingflokkur</p>
+          </h3>
+          <h3>
+            Þingseta:
+            <div id="container-thingseta"></div>
+          </h3>
+        </div>
+
+        <div id="malaskra-searchbar" class="container">
+          <h3 id="malaskra-searchbar-text">Leita í málaskrá</h3>
+          <input
+            type="text"
+            id="search-malaskra-input"
+            placeholder="Leita að máli"
+          />
+          <input
+            type="button"
+            id="search-malaskra-button"
+            class="button"
+            value="Leita"
+          />
+        </div>
+        <div id="advanced-search-container" class="container">
+          <button class="advanced-search-btn" aria-label="Ítarleg leit">
+            <span class="icon" aria-hidden="true">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+            <span class="text">Ítarleg leit</span>
+          </button>
+          <div id="date-searchbar" class="container hidden">
+            <div><p>Flokka eftir dagsetningu:</p></div>
+            <div class="choose-date">
+              <p>Frá</p>
+              <input type="date" id="input-date-first" class="date-first" />
+            </div>
+            <div class="choose-date">
+              <p>Til</p>
+              <input type="date" id="input-date-second" class="date-second" />
+            </div>
+            <div class="date-button">
+              <p id="error-no-date" class="hidden">
+                Vinsamlegast veljið dagsetningu
+              </p>
+              <p id="error-wrong-order" class="hidden">
+                Vinsamlegast veljið upphafsdag á undan lokadegi
+              </p>
+              <input
+                type="button"
+                id="search-date-button"
+                class="button"
+                value="Leita"
+              />
+            </div>
+          </div>
+
+          <div id="efnisflokkar" class="container hidden">
+            <div class="yfirflokkur-div">
+              <p id="oll-mal" class="yfirflokkur-txt">Öll mál</p>
+            </div>
+          </div>
+        </div>
+        <div class="table-wrap">
+          <table>
+            <thead>
+              <tr class="table-descriptions">
+                <th>
+                  <div id="dags-container" class="dags-container">
+                    <div id="filter-arrow" class="arrow-up"></div>
+                    <h2 id="label-dags">Dagsetning</h2>
+                  </div>
+                </th>
+                <th id="mal-container-top" colspan="2"><h2>Mál</h2></th>
+                <th class="vote-description">Já</th>
+                <th class="vote-description">Nei</th>
+                <th class="vote-description">Greiddi ekki atkvæði</th>
+                <th class="vote-description">Fjarvist</th>
+                <th class="vote-description">Fjarverandi</th>
+                <th class="vote-description">Niðurstaða</th>
+              </tr>
+            </thead>
+            <tbody class="mal-container">
+              <tr class="mal odd">
+                <th class="mal-date">01.01.2000</th>
+                <th class="mal-heading">Mál 1</th>
+                <th class="mal-heading">
+                  <a href="thingmenn-profile.jpg" target="_blank">Nánar</a>
+                </th>
+                <td><div class="vote já"></div></td>
+                <td><div class="vote nei"></div></td>
+                <td><div class="vote greiðir-ekki-atkvæði"></div></td>
+                <td><div class="vote boðaði-fjarvist"></div></td>
+                <td><div class="vote fjarverandi"></div></td>
+              </tr>
+              <tr class="mal even">
+                <th class="mal-date">01.01.2000</th>
+                <th class="mal-heading">Mál 2</th>
+                <th class="mal-heading">
+                  <a href="thingmenn-profile.jpg" target="_blank">Nánar</a>
+                </th>
+                <td><div class="vote já"></div></td>
+                <td><div class="vote nei"></div></td>
+                <td><div class="vote greiðir-ekki-atkvæði"></div></td>
+                <td><div class="vote boðaði-fjarvist"></div></td>
+                <td><div class="vote fjarverandi"></div></td>
+              </tr>
+              <tr class="mal odd">
+                <th class="mal-date">01.01.2000</th>
+                <th class="mal-heading">Mál 3</th>
+                <th class="mal-heading">
+                  <a href="thingmenn-profile.jpg" target="_blank">Nánar</a>
+                </th>
+                <td><div class="vote já"></div></td>
+                <td><div class="vote nei"></div></td>
+                <td><div class="vote greiðir-ekki-atkvæði"></div></td>
+                <td><div class="vote boðaði-fjarvist"></div></td>
+                <td><div class="vote fjarverandi"></div></td>
+              </tr>
+              <tr class="total">
+                <th>Total</th>
+                <td><span>X</span></td>
+                <td><span>X</span></td>
+                <td><span>X</span></td>
+                <td><span>X</span></td>
+                <td><span>X</span></td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>
