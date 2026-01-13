@@ -66,7 +66,7 @@ function normalizeString(str) {
 
 async function loadThingmenn() {
   try {
-    const res = await fetch('/api/thingmenn');
+    const res = await fetch('./thingmenn.json');
     const data = await res.json();
     arrThingmenn = data;
     displayProfiles(arrThingmenn);

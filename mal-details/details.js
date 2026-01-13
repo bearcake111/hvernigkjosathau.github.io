@@ -103,7 +103,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 async function loadThingmenn() {
   try {
-    const res = await fetch('/api/thingmenn');
+    const res = await fetch('./thingmenn.json');
     const data = await res.json();
     arrThingmenn = data;
   } catch (err) {
@@ -113,7 +113,7 @@ async function loadThingmenn() {
 
 async function loadMalaskra() {
   try {
-    const res = await fetch('/api/malaskra');
+    const res = await fetch('./malaskra.json');
     const data = await res.json();
     arrMalaskra = data;
   } catch (err) {
@@ -143,7 +143,7 @@ tabThingmenn.addEventListener(`click`, function () {
 });
 
 tabMalaskra.addEventListener(`click`, function () {
-  window.location.href = `../search-malaskra/index.html`;
+  window.location.href = `./search-malaskra/index.html`;
 });
 
 //SORTING//
