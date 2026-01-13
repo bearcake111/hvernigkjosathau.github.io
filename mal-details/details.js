@@ -103,7 +103,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 async function loadThingmenn() {
   try {
-    const res = await fetch('./thingmenn.json');
+    const res = await fetch('../thingmenn.json');
     const data = await res.json();
     arrThingmenn = data;
   } catch (err) {
@@ -113,7 +113,7 @@ async function loadThingmenn() {
 
 async function loadMalaskra() {
   try {
-    const res = await fetch('./malaskra.json');
+    const res = await fetch('../malaskra.json');
     const data = await res.json();
     arrMalaskra = data;
   } catch (err) {
@@ -135,15 +135,15 @@ initialize();
 
 //NAVBAR//
 labelPagetitle.addEventListener(`click`, function () {
-  window.location.href = `/index.html`;
+  window.location.href = `../index.html`;
 });
 
 tabThingmenn.addEventListener(`click`, function () {
-  window.location.href = `/index.html`;
+  window.location.href = `../index.html`;
 });
 
 tabMalaskra.addEventListener(`click`, function () {
-  window.location.href = `./search-malaskra/index.html`;
+  window.location.href = `../search-malaskra/index.html`;
 });
 
 //SORTING//

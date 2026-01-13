@@ -85,7 +85,7 @@ function displayMal(malaskra) {
   let row = `even`;
 
   tempMalaskra.forEach(mal => {
-    const link = `./mal-details/index.html?atkvGrNr=${encodeURIComponent(
+    const link = `../mal-details/index.html?atkvGrNr=${encodeURIComponent(
       mal.atkvGrNr
     )}`;
     const html = `<tr class="mal ${row}" data-nr="${mal.nr}" data-atkvgrnr="${mal.atkvGrNr}" data-date="${mal.date}"data-time="${mal.time}">    
@@ -336,7 +336,7 @@ function sortByDate(desc = false) {
 
 async function loadMalaskra() {
   try {
-    const res = await fetch('./malaskra.json');
+    const res = await fetch('../malaskra.json');
     const data = await res.json();
     arrMalaskra = data;
   } catch (err) {
@@ -346,7 +346,7 @@ async function loadMalaskra() {
 
 async function loadEfnisflokkar() {
   try {
-    const res = await fetch('./efnisflokkar.json');
+    const res = await fetch('../efnisflokkar.json');
     const data = await res.json();
     arrEfnisflokkar = data;
   } catch (err) {
@@ -367,15 +367,15 @@ initialize();
 
 //NAVBAR//
 labelPagetitle.addEventListener(`click`, function () {
-  window.location.href = `/index.html`;
+  window.location.href = `../index.html`;
 });
 
 tabThingmenn.addEventListener(`click`, function () {
-  window.location.href = `/index.html`;
+  window.location.href = `../index.html`;
 });
 
 tabMalaskra.addEventListener(`click`, function () {
-  window.location.href = `./search-malaskra/index.html`;
+  window.location.href = `../search-malaskra/index.html`;
 });
 
 //ADVANCED-SEARCH

@@ -33,7 +33,7 @@ function displayProfiles(arrThingmenn) {
   document.querySelectorAll('.profile-container').forEach(container => {
     container.addEventListener('click', () => {
       const name = container.querySelector(`.name-text`).textContent;
-      const url = `/search-thingmenn/index.html?name=${encodeURIComponent(
+      const url = `search-thingmenn/index.html?name=${encodeURIComponent(
         name
       )}`;
       window.location.href = url;
@@ -86,11 +86,11 @@ initialize();
 //NAVIGATION
 
 tabThingmenn.addEventListener(`click`, function () {
-  window.location.href = `/index.html`;
+  window.location.href = `index.html`;
 });
 
 tabMalaskra.addEventListener(`click`, function () {
-  window.location.href = `/search-malaskra/index.html`;
+  window.location.href = `search-malaskra/index.html`;
 });
 
 //SEARCHBAR//

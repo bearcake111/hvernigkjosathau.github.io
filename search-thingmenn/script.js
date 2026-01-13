@@ -412,7 +412,7 @@ function moreInfoRedirect() {
 
     malHeading.addEventListener('click', () => {
       const atkvGrNr = container.dataset.atkvgrnr;
-      const url = `./mal-details/index.html?atkvGrNr=${encodeURIComponent(
+      const url = `../mal-details/index.html?atkvGrNr=${encodeURIComponent(
         atkvGrNr
       )}`;
       window.location.href = url;
@@ -433,7 +433,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
 async function loadMalaskra() {
   try {
-    const res = await fetch('./malaskra.json');
+    const res = await fetch('../malaskra.json');
     const data = await res.json();
     arrMalaskra = data;
   } catch (err) {
@@ -443,7 +443,7 @@ async function loadMalaskra() {
 
 async function loadThingmenn() {
   try {
-    const res = await fetch('./thingmenn.json');
+    const res = await fetch('../thingmenn.json');
     const data = await res.json();
     arrThingmenn = data;
     currThingmadur = findThingmadur();
@@ -456,7 +456,7 @@ async function loadThingmenn() {
 
 async function loadEfnisflokkar() {
   try {
-    const res = await fetch('./efnisflokkar.json');
+    const res = await fetch('../efnisflokkar.json');
     const data = await res.json();
     arrEfnisflokkar = data;
   } catch (err) {
@@ -479,15 +479,15 @@ initialize();
 
 //NAVIGATION
 labelPagetitle.addEventListener(`click`, function () {
-  window.location.href = `/index.html`;
+  window.location.href = `../index.html`;
 });
 
 tabThingmenn.addEventListener(`click`, function () {
-  window.location.href = `/index.html`;
+  window.location.href = `../index.html`;
 });
 
 tabMalaskra.addEventListener(`click`, function () {
-  window.location.href = `./search-malaskra/index.html`;
+  window.location.href = `../search-malaskra/index.html`;
 });
 
 //ADVANCED-SEARCH
