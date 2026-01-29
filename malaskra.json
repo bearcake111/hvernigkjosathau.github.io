@@ -137204,5 +137204,1888 @@
         "atkv": "já"
       }
     ]
+  },
+  {
+    "name": "Afbrigði",
+    "date": "28.01.2026",
+    "time": "15:35",
+    "nr": "401",
+    "thingskj": "671",
+    "atkvGrNr": "69001",
+    "atkv": {
+      "afgr": "samþykkt",
+      "ja": 43,
+      "nei": 0,
+      "greiðirEkki": 0
+    },
+    "skjalPdf": "http://www.althingi.is/altext/pdf/157/s/0671.pdf",
+    "atkvListi": [
+      {
+        "nafn": "Alma D. Möller",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Arna Lára Jónsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ása Berglind Hjálmarsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ásthildur Lóa Þórsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Bryndís Haraldsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Brynjar Níelsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Dagbjört Hákonardóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Dagur B. Eggertsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Diljá Mist Einarsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Eiríkur Björn Björgvinsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eiríkur S. Svavarsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Elín Íris Fanndal",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eydís Ásbjörnsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eyjólfur Ármannsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Grétar Mar Jónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Grímur Grímsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Guðmundur Ari Sigurjónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Halla Hrund Logadóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Hanna Katrín Friðriksson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Hákon Hermannsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Hildur Sverrisdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Inga Sæland",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ingibjörg Isaksen",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ingvar Þóroddsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ingveldur Anna Sigurðardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Jens Garðar Helgason",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Jóhann Páll Jóhannsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Jón Gnarr",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Jón Gunnarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Jón Pétur Zimsen",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Karl Gauti Hjaltason",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Katrín Sif Árnadóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Kristján Þórður Snæbjarnarson ",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Kristrún Frostadóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Lilja Rafney Magnúsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Logi Einarsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "María Rut Kristinsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Nanna Margrét Gunnlaugsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Njáll Trausti Friðbertsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ólafur Adolfsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Pawel Bartoszek",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ragnar Þór Ingólfsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Rósa Guðbjartsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Rúnar Sigurjónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sandra Sigurðardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmar Guðmundsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmundur Davíð Gunnlaugsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmundur Ernir Rúnarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigríður Á. Andersen",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigurður Örn Hilmarsson",
+        "atkv": "boðaði-fjarvist"
+      },
+      {
+        "nafn": "Sigurður Ingi Jóhannsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigurþóra Steinunn Bergsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Snorri Másson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Stefán Vagn Stefánsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Vilhjálmur Árnason",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Víðir Reynisson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þorbjörg Sigríður Gunnlaugsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Þorgerður Katrín Gunnarsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þorgrímur Sigmundsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þóra Gunnlaug Briem",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórarinn Ingi Pétursson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórdís Kolbrún Reykfjörð Gylfadóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Þórunn Sveinbjarnardóttir",
+        "atkv": "já"
+      }
+    ]
+  },
+  {
+    "name": "Veiting ríkisborgararéttar",
+    "date": "29.01.2026",
+    "time": "12:06",
+    "nr": "398",
+    "thingskj": "673",
+    "atkvGrNr": "69004",
+    "atkv": {
+      "afgr": "samþykkt",
+      "ja": 47,
+      "nei": 0,
+      "greiðirEkki": 0
+    },
+    "skjalPdf": "http://www.althingi.is/altext/pdf/157/s/0673.pdf",
+    "atkvListi": [
+      {
+        "nafn": "Alma D. Möller",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Arna Lára Jónsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ása Berglind Hjálmarsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ásthildur Lóa Þórsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Bryndís Haraldsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Brynjar Níelsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Dagbjört Hákonardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Dagur B. Eggertsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Diljá Mist Einarsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eiríkur Björn Björgvinsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eiríkur S. Svavarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Elín Íris Fanndal",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eydís Ásbjörnsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Eyjólfur Ármannsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Grétar Mar Jónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Grímur Grímsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Guðmundur Ari Sigurjónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Halla Hrund Logadóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Hanna Katrín Friðriksson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Hákon Hermannsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Hildur Sverrisdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Inga Sæland",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ingibjörg Isaksen",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ingvar Þóroddsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ingveldur Anna Sigurðardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Jens Garðar Helgason",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Jóhann Páll Jóhannsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Jón Gnarr",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Jón Gunnarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Jón Pétur Zimsen",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Karl Gauti Hjaltason",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Katrín Sif Árnadóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Kristján Þórður Snæbjarnarson ",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Kristrún Frostadóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Lilja Rafney Magnúsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Logi Einarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "María Rut Kristinsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Nanna Margrét Gunnlaugsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Njáll Trausti Friðbertsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ólafur Adolfsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Pawel Bartoszek",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ragnar Þór Ingólfsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Rósa Guðbjartsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Rúnar Sigurjónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sandra Sigurðardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmar Guðmundsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmundur Davíð Gunnlaugsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmundur Ernir Rúnarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigríður Á. Andersen",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigurður Örn Hilmarsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Sigurður Ingi Jóhannsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigurþóra Steinunn Bergsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Snorri Másson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Stefán Vagn Stefánsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Vilhjálmur Árnason",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Víðir Reynisson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þorbjörg Sigríður Gunnlaugsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Þorgerður Katrín Gunnarsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þorgrímur Sigmundsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þóra Gunnlaug Briem",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórarinn Ingi Pétursson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórdís Kolbrún Reykfjörð Gylfadóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórunn Sveinbjarnardóttir",
+        "atkv": "já"
+      }
+    ]
+  },
+  {
+    "name": "Veiting ríkisborgararéttar",
+    "date": "29.01.2026",
+    "time": "12:22",
+    "nr": "398",
+    "thingskj": "673",
+    "atkvGrNr": "69007",
+    "atkv": {
+      "afgr": "samþykkt",
+      "ja": 46,
+      "nei": 0,
+      "greiðirEkki": 0
+    },
+    "skjalPdf": "http://www.althingi.is/altext/pdf/157/s/0673.pdf",
+    "atkvListi": [
+      {
+        "nafn": "Alma D. Möller",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Arna Lára Jónsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ása Berglind Hjálmarsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ásthildur Lóa Þórsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Bryndís Haraldsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Brynjar Níelsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Dagbjört Hákonardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Dagur B. Eggertsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Diljá Mist Einarsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eiríkur Björn Björgvinsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eiríkur S. Svavarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Elín Íris Fanndal",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eydís Ásbjörnsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Eyjólfur Ármannsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Grétar Mar Jónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Grímur Grímsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Guðmundur Ari Sigurjónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Halla Hrund Logadóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Hanna Katrín Friðriksson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Hákon Hermannsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Hildur Sverrisdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Inga Sæland",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ingibjörg Isaksen",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ingvar Þóroddsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ingveldur Anna Sigurðardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Jens Garðar Helgason",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Jóhann Páll Jóhannsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Jón Gnarr",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Jón Gunnarsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Jón Pétur Zimsen",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Karl Gauti Hjaltason",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Katrín Sif Árnadóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Kristján Þórður Snæbjarnarson ",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Kristrún Frostadóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Lilja Rafney Magnúsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Logi Einarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "María Rut Kristinsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Nanna Margrét Gunnlaugsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Njáll Trausti Friðbertsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ólafur Adolfsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Pawel Bartoszek",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ragnar Þór Ingólfsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Rósa Guðbjartsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Rúnar Sigurjónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sandra Sigurðardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmar Guðmundsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmundur Davíð Gunnlaugsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmundur Ernir Rúnarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigríður Á. Andersen",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigurður Örn Hilmarsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Sigurður Ingi Jóhannsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigurþóra Steinunn Bergsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Snorri Másson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Stefán Vagn Stefánsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Vilhjálmur Árnason",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Víðir Reynisson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þorbjörg Sigríður Gunnlaugsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Þorgerður Katrín Gunnarsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þorgrímur Sigmundsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þóra Gunnlaug Briem",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórarinn Ingi Pétursson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórdís Kolbrún Reykfjörð Gylfadóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórunn Sveinbjarnardóttir",
+        "atkv": "já"
+      }
+    ]
+  },
+  {
+    "name": "Veiting ríkisborgararéttar",
+    "date": "29.01.2026",
+    "time": "12:23",
+    "nr": "398",
+    "thingskj": "673",
+    "atkvGrNr": "69008",
+    "atkv": {
+      "afgr": "samþykkt",
+      "ja": 38,
+      "nei": 0,
+      "greiðirEkki": 9
+    },
+    "skjalPdf": "http://www.althingi.is/altext/pdf/157/s/0673.pdf",
+    "atkvListi": [
+      {
+        "nafn": "Alma D. Möller",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Arna Lára Jónsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ása Berglind Hjálmarsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ásthildur Lóa Þórsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Bryndís Haraldsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Brynjar Níelsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Dagbjört Hákonardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Dagur B. Eggertsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Diljá Mist Einarsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eiríkur Björn Björgvinsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eiríkur S. Svavarsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Elín Íris Fanndal",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eydís Ásbjörnsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Eyjólfur Ármannsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Grétar Mar Jónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Grímur Grímsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Guðmundur Ari Sigurjónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Halla Hrund Logadóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Hanna Katrín Friðriksson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Hákon Hermannsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Hildur Sverrisdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Inga Sæland",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ingibjörg Isaksen",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ingvar Þóroddsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ingveldur Anna Sigurðardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Jens Garðar Helgason",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Jóhann Páll Jóhannsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Jón Gnarr",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Jón Gunnarsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Jón Pétur Zimsen",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Karl Gauti Hjaltason",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Katrín Sif Árnadóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Kristján Þórður Snæbjarnarson ",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Kristrún Frostadóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Lilja Rafney Magnúsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Logi Einarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "María Rut Kristinsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Nanna Margrét Gunnlaugsdóttir",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Njáll Trausti Friðbertsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ólafur Adolfsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Pawel Bartoszek",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ragnar Þór Ingólfsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Rósa Guðbjartsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Rúnar Sigurjónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sandra Sigurðardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmar Guðmundsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmundur Davíð Gunnlaugsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Sigmundur Ernir Rúnarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigríður Á. Andersen",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Sigurður Örn Hilmarsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Sigurður Ingi Jóhannsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigurþóra Steinunn Bergsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Snorri Másson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Stefán Vagn Stefánsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Vilhjálmur Árnason",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Víðir Reynisson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þorbjörg Sigríður Gunnlaugsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Þorgerður Katrín Gunnarsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þorgrímur Sigmundsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Þóra Gunnlaug Briem",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórarinn Ingi Pétursson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórdís Kolbrún Reykfjörð Gylfadóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórunn Sveinbjarnardóttir",
+        "atkv": "já"
+      }
+    ]
+  },
+  {
+    "name": "Veiting ríkisborgararéttar",
+    "date": "29.01.2026",
+    "time": "12:23",
+    "nr": "398",
+    "thingskj": "673",
+    "atkvGrNr": "69009",
+    "atkv": {
+      "afgr": "samþykkt",
+      "ja": 36,
+      "nei": 0,
+      "greiðirEkki": 10
+    },
+    "skjalPdf": "http://www.althingi.is/altext/pdf/157/s/0673.pdf",
+    "atkvListi": [
+      {
+        "nafn": "Alma D. Möller",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Arna Lára Jónsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ása Berglind Hjálmarsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ásthildur Lóa Þórsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Bryndís Haraldsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Brynjar Níelsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Dagbjört Hákonardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Dagur B. Eggertsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Diljá Mist Einarsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eiríkur Björn Björgvinsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eiríkur S. Svavarsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Elín Íris Fanndal",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eydís Ásbjörnsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Eyjólfur Ármannsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Grétar Mar Jónsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Grímur Grímsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Guðmundur Ari Sigurjónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Halla Hrund Logadóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Hanna Katrín Friðriksson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Hákon Hermannsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Hildur Sverrisdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Inga Sæland",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ingibjörg Isaksen",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ingvar Þóroddsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ingveldur Anna Sigurðardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Jens Garðar Helgason",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Jóhann Páll Jóhannsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Jón Gnarr",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Jón Gunnarsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Jón Pétur Zimsen",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Karl Gauti Hjaltason",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Katrín Sif Árnadóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Kristján Þórður Snæbjarnarson ",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Kristrún Frostadóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Lilja Rafney Magnúsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Logi Einarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "María Rut Kristinsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Nanna Margrét Gunnlaugsdóttir",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Njáll Trausti Friðbertsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ólafur Adolfsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Pawel Bartoszek",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ragnar Þór Ingólfsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Rósa Guðbjartsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Rúnar Sigurjónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sandra Sigurðardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmar Guðmundsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmundur Davíð Gunnlaugsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Sigmundur Ernir Rúnarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigríður Á. Andersen",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Sigurður Örn Hilmarsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Sigurður Ingi Jóhannsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigurþóra Steinunn Bergsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Snorri Másson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Stefán Vagn Stefánsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Vilhjálmur Árnason",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Víðir Reynisson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þorbjörg Sigríður Gunnlaugsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Þorgerður Katrín Gunnarsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þorgrímur Sigmundsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Þóra Gunnlaug Briem",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórarinn Ingi Pétursson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórdís Kolbrún Reykfjörð Gylfadóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórunn Sveinbjarnardóttir",
+        "atkv": "já"
+      }
+    ]
+  },
+  {
+    "name": "Veiting ríkisborgararéttar",
+    "date": "29.01.2026",
+    "time": "12:24",
+    "nr": "398",
+    "thingskj": "673",
+    "atkvGrNr": "69010",
+    "atkv": {
+      "afgr": "samþykkt",
+      "ja": 46,
+      "nei": 0,
+      "greiðirEkki": 0
+    },
+    "skjalPdf": "http://www.althingi.is/altext/pdf/157/s/0673.pdf",
+    "atkvListi": [
+      {
+        "nafn": "Alma D. Möller",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Arna Lára Jónsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ása Berglind Hjálmarsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ásthildur Lóa Þórsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Bryndís Haraldsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Brynjar Níelsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Dagbjört Hákonardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Dagur B. Eggertsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Diljá Mist Einarsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eiríkur Björn Björgvinsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eiríkur S. Svavarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Elín Íris Fanndal",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eydís Ásbjörnsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Eyjólfur Ármannsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Grétar Mar Jónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Grímur Grímsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Guðmundur Ari Sigurjónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Halla Hrund Logadóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Hanna Katrín Friðriksson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Hákon Hermannsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Hildur Sverrisdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Inga Sæland",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ingibjörg Isaksen",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ingvar Þóroddsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ingveldur Anna Sigurðardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Jens Garðar Helgason",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Jóhann Páll Jóhannsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Jón Gnarr",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Jón Gunnarsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Jón Pétur Zimsen",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Karl Gauti Hjaltason",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Katrín Sif Árnadóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Kristján Þórður Snæbjarnarson ",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Kristrún Frostadóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Lilja Rafney Magnúsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Logi Einarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "María Rut Kristinsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Nanna Margrét Gunnlaugsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Njáll Trausti Friðbertsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ólafur Adolfsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Pawel Bartoszek",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ragnar Þór Ingólfsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Rósa Guðbjartsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Rúnar Sigurjónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sandra Sigurðardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmar Guðmundsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmundur Davíð Gunnlaugsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmundur Ernir Rúnarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigríður Á. Andersen",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigurður Örn Hilmarsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Sigurður Ingi Jóhannsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigurþóra Steinunn Bergsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Snorri Másson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Stefán Vagn Stefánsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Vilhjálmur Árnason",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Víðir Reynisson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þorbjörg Sigríður Gunnlaugsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Þorgerður Katrín Gunnarsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Þorgrímur Sigmundsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þóra Gunnlaug Briem",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórarinn Ingi Pétursson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórdís Kolbrún Reykfjörð Gylfadóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórunn Sveinbjarnardóttir",
+        "atkv": "já"
+      }
+    ]
+  },
+  {
+    "name": "Veiting ríkisborgararéttar",
+    "date": "29.01.2026",
+    "time": "12:27",
+    "nr": "398",
+    "thingskj": "673",
+    "atkvGrNr": "69011",
+    "atkv": {
+      "afgr": "samþykkt",
+      "ja": 38,
+      "nei": 0,
+      "greiðirEkki": 10
+    },
+    "skjalPdf": "http://www.althingi.is/altext/pdf/157/s/0673.pdf",
+    "atkvListi": [
+      {
+        "nafn": "Alma D. Möller",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Arna Lára Jónsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ása Berglind Hjálmarsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ásthildur Lóa Þórsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Bryndís Haraldsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Brynjar Níelsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Dagbjört Hákonardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Dagur B. Eggertsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Diljá Mist Einarsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eiríkur Björn Björgvinsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eiríkur S. Svavarsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Elín Íris Fanndal",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Eydís Ásbjörnsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Eyjólfur Ármannsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Grétar Mar Jónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Grímur Grímsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Guðmundur Ari Sigurjónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Halla Hrund Logadóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Hanna Katrín Friðriksson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Hákon Hermannsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Hildur Sverrisdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Inga Sæland",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ingibjörg Isaksen",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ingvar Þóroddsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ingveldur Anna Sigurðardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Jens Garðar Helgason",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Jóhann Páll Jóhannsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Jón Gnarr",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Jón Gunnarsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Jón Pétur Zimsen",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Karl Gauti Hjaltason",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Katrín Sif Árnadóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Kristján Þórður Snæbjarnarson ",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Kristrún Frostadóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Lilja Rafney Magnúsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Logi Einarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "María Rut Kristinsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Nanna Margrét Gunnlaugsdóttir",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Njáll Trausti Friðbertsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Ólafur Adolfsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Pawel Bartoszek",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Ragnar Þór Ingólfsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Rósa Guðbjartsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Rúnar Sigurjónsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sandra Sigurðardóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmar Guðmundsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigmundur Davíð Gunnlaugsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Sigmundur Ernir Rúnarsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigríður Á. Andersen",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Sigurður Örn Hilmarsson",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Sigurður Ingi Jóhannsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Sigurþóra Steinunn Bergsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Snorri Másson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Stefán Vagn Stefánsson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Vilhjálmur Árnason",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Víðir Reynisson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þorbjörg Sigríður Gunnlaugsdóttir",
+        "atkv": "fjarverandi"
+      },
+      {
+        "nafn": "Þorgerður Katrín Gunnarsdóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þorgrímur Sigmundsson",
+        "atkv": "greiðir-ekki-atkvæði"
+      },
+      {
+        "nafn": "Þóra Gunnlaug Briem",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórarinn Ingi Pétursson",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórdís Kolbrún Reykfjörð Gylfadóttir",
+        "atkv": "já"
+      },
+      {
+        "nafn": "Þórunn Sveinbjarnardóttir",
+        "atkv": "já"
+      }
+    ]
   }
 ]

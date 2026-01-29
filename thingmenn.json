@@ -109,6 +109,26 @@
     "flokkur": "Sjálfstæðisflokkur"
   },
   {
+    "name": "Brynjar Níelsson",
+    "id": "1160",
+    "img": "https://www.althingi.is/myndir/thingmenn-cache/1160/1160-220.jpg",
+    "thingsetaNr": [
+      "142",
+      "143",
+      "144",
+      "145",
+      "146",
+      "147",
+      "148",
+      "149",
+      "150",
+      "151",
+      "153",
+      "157"
+    ],
+    "flokkur": "Sjálfstæðisflokkur"
+  },
+  {
     "name": "Dagbjört Hákonardóttir",
     "id": "1439",
     "img": "https://www.althingi.is/myndir/thingmenn-cache/1439/1439-220.jpg",
@@ -157,6 +177,26 @@
     "flokkur": "Viðreisn"
   },
   {
+    "name": "Eiríkur S. Svavarsson",
+    "id": "1558",
+    "img": "https://www.althingi.is/myndir/thingmenn-cache/1558/1558-220.jpg",
+    "thingsetaNr": [
+      "157"
+    ],
+    "flokkur": "Miðflokkurinn"
+  },
+  {
+    "name": "Elín Íris Fanndal",
+    "id": "1505",
+    "img": "https://www.althingi.is/myndir/thingmenn-cache/1505/1505-220.jpg",
+    "thingsetaNr": [
+      "154",
+      "156",
+      "157"
+    ],
+    "flokkur": "Flokkur fólksins"
+  },
+  {
     "name": "Eydís Ásbjörnsdóttir",
     "id": "1487",
     "img": "https://www.althingi.is/myndir/thingmenn-cache/1487/1487-220.jpg",
@@ -182,24 +222,25 @@
     "flokkur": "Flokkur fólksins"
   },
   {
+    "name": "Grétar Mar Jónsson",
+    "id": "682",
+    "img": "https://www.althingi.is/myndir/thingmenn-cache/682/682-220.jpg",
+    "thingsetaNr": [
+      "130",
+      "132",
+      "134",
+      "135",
+      "136",
+      "156",
+      "157"
+    ],
+    "flokkur": "Flokkur fólksins"
+  },
+  {
     "name": "Grímur Grímsson",
     "id": "1514",
     "img": "https://www.althingi.is/myndir/thingmenn-cache/1514/1514-220.jpg",
     "thingsetaNr": [
-      "156",
-      "157"
-    ],
-    "flokkur": "Viðreisn"
-  },
-  {
-    "name": "Guðbrandur Einarsson",
-    "id": "1422",
-    "img": "https://www.althingi.is/myndir/thingmenn-cache/1422/1422-220.jpg",
-    "thingsetaNr": [
-      "152",
-      "153",
-      "154",
-      "155",
       "156",
       "157"
     ],
@@ -318,6 +359,16 @@
     "flokkur": "Viðreisn"
   },
   {
+    "name": "Hákon Hermannsson",
+    "id": "1503",
+    "img": "https://www.althingi.is/myndir/thingmenn-cache/1503/1503-220.jpg",
+    "thingsetaNr": [
+      "154",
+      "157"
+    ],
+    "flokkur": "Miðflokkurinn"
+  },
+  {
     "name": "Hildur Sverrisdóttir",
     "id": "1279",
     "img": "https://www.althingi.is/myndir/thingmenn-cache/1279/1279-220.jpg",
@@ -387,6 +438,17 @@
       "157"
     ],
     "flokkur": "Viðreisn"
+  },
+  {
+    "name": "Ingveldur Anna Sigurðardóttir",
+    "id": "1458",
+    "img": "https://www.althingi.is/myndir/thingmenn-cache/1458/1458-220.jpg",
+    "thingsetaNr": [
+      "153",
+      "156",
+      "157"
+    ],
+    "flokkur": "Sjálfstæðisflokkur"
   },
   {
     "name": "Jens Garðar Helgason",
@@ -490,6 +552,19 @@
       "157"
     ],
     "flokkur": "Miðflokkurinn"
+  },
+  {
+    "name": "Katrín Sif Árnadóttir",
+    "id": "1431",
+    "img": "https://www.althingi.is/myndir/thingmenn-cache/1431/1431-220.jpg",
+    "thingsetaNr": [
+      "152",
+      "153",
+      "154",
+      "156",
+      "157"
+    ],
+    "flokkur": "Flokkur fólksins"
   },
   {
     "name": "Kolbrún Áslaugar Baldursdóttir",
@@ -679,6 +754,26 @@
       "157"
     ],
     "flokkur": "Sjálfstæðisflokkur"
+  },
+  {
+    "name": "Rúnar Sigurjónsson",
+    "id": "1551",
+    "img": "https://www.althingi.is/myndir/thingmenn-cache/1551/1551-220.jpg",
+    "thingsetaNr": [
+      "156",
+      "157"
+    ],
+    "flokkur": "Flokkur fólksins"
+  },
+  {
+    "name": "Sandra Sigurðardóttir",
+    "id": "1535",
+    "img": "https://www.althingi.is/myndir/thingmenn-cache/1535/1535-220.jpg",
+    "thingsetaNr": [
+      "156",
+      "157"
+    ],
+    "flokkur": "Viðreisn"
   },
   {
     "name": "Sigmar Guðmundsson",
@@ -964,6 +1059,15 @@
       "157"
     ],
     "flokkur": "Miðflokkurinn"
+  },
+  {
+    "name": "Þóra Gunnlaug Briem",
+    "id": "1568",
+    "img": "https://www.althingi.is/myndir/thingmenn-cache/1568/1568-220.jpg",
+    "thingsetaNr": [
+      "157"
+    ],
+    "flokkur": "Flokkur fólksins"
   },
   {
     "name": "Þórarinn Ingi Pétursson",

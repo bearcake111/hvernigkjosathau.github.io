@@ -33,6 +33,10 @@
         "id": 2,
         "mal": [
           {
+            "heiti": "efnahagsleg áhrif viðskiptakerfis ESB með losunarheimildir á Íslandi",
+            "nr": "376"
+          },
+          {
             "heiti": "svæðisbundin flutningsjöfnun á árinu 2025",
             "nr": "239"
           }
@@ -115,6 +119,14 @@
             "nr": "358"
           },
           {
+            "heiti": "fjármunir til loftslagsmála",
+            "nr": "382"
+          },
+          {
+            "heiti": "fjármunir til loftslagsmála",
+            "nr": "383"
+          },
+          {
             "heiti": "fæðuöryggi og innlend matvælaframleiðsla",
             "nr": "67"
           },
@@ -137,6 +149,10 @@
         "id": 4,
         "mal": [
           {
+            "heiti": "aðgerðir til að draga úr losun sótagna",
+            "nr": "390"
+          },
+          {
             "heiti": "aflaregla í loðnu og þorski",
             "nr": "109"
           },
@@ -153,16 +169,32 @@
             "nr": "74"
           },
           {
+            "heiti": "eitrunaráhrif svartolíu á norðurslóðum",
+            "nr": "394"
+          },
+          {
+            "heiti": "framkvæmd svartolíubanns",
+            "nr": "393"
+          },
+          {
             "heiti": "fæðuöryggi og innlend matvælaframleiðsla",
             "nr": "67"
+          },
+          {
+            "heiti": "heimskautaeldsneyti",
+            "nr": "391"
           },
           {
             "heiti": "kostnaður við eftirlit með hvalveiðum",
             "nr": "214"
           },
           {
-            "heiti": "landhelgi, aðlægt belti, efnahagslögsaga og landgrunnur",
+            "heiti": "landhelgi, aðlægt belti, efnahagslögsaga og landgrunn",
             "nr": "315"
+          },
+          {
+            "heiti": "reglur um losun og eldsneytisnotkun skipa",
+            "nr": "392"
           },
           {
             "heiti": "varnir gegn mengun hafs og stranda",
@@ -279,6 +311,10 @@
             "nr": "115"
           },
           {
+            "heiti": "strætisvagnar frá kínverska framleiðandanum Yutong",
+            "nr": "387"
+          },
+          {
             "heiti": "sýslumaður",
             "nr": "111"
           },
@@ -315,6 +351,10 @@
           {
             "heiti": "búvörulög",
             "nr": "374"
+          },
+          {
+            "heiti": "efnahagsleg áhrif viðskiptakerfis ESB með losunarheimildir á Íslandi",
+            "nr": "376"
           },
           {
             "heiti": "eignarhald 20 stærstu útgerðarfélaga landsins í íslensku atvinnulífi",
@@ -572,6 +612,10 @@
             "nr": "264"
           },
           {
+            "heiti": "aðgerðir til að draga úr losun sótagna",
+            "nr": "390"
+          },
+          {
             "heiti": "aðgerðir vegna ástandsins á Sahel--svæðinu og í Súdan",
             "nr": "223"
           },
@@ -594,6 +638,10 @@
           {
             "heiti": "búvörulög",
             "nr": "374"
+          },
+          {
+            "heiti": "efnahagsleg áhrif viðskiptakerfis ESB með losunarheimildir á Íslandi",
+            "nr": "376"
           },
           {
             "heiti": "erlendir ríkisborgarar",
@@ -648,7 +696,11 @@
             "nr": "219"
           },
           {
-            "heiti": "landhelgi, aðlægt belti, efnahagslögsaga og landgrunnur",
+            "heiti": "heimskautaeldsneyti",
+            "nr": "391"
+          },
+          {
+            "heiti": "landhelgi, aðlægt belti, efnahagslögsaga og landgrunn",
             "nr": "315"
           },
           {
@@ -686,6 +738,10 @@
           {
             "heiti": "raforkulög",
             "nr": "191"
+          },
+          {
+            "heiti": "reglur um losun og eldsneytisnotkun skipa",
+            "nr": "392"
           },
           {
             "heiti": "réttindi sjúklinga",
@@ -798,16 +854,32 @@
         "id": 10,
         "mal": [
           {
+            "heiti": "aðgerðir til að draga úr losun sótagna",
+            "nr": "390"
+          },
+          {
             "heiti": "eingreiðsla og Norðurlandasamningar",
             "nr": "370"
+          },
+          {
+            "heiti": "eitrunaráhrif svartolíu á norðurslóðum",
+            "nr": "394"
           },
           {
             "heiti": "framfylgd ályktana Vestnorræna ráðsins árið 2025",
             "nr": "254"
           },
           {
+            "heiti": "framkvæmd svartolíubanns",
+            "nr": "393"
+          },
+          {
             "heiti": "framkvæmd þjóðaröryggisstefnu fyrir Ísland á árinu 2024",
             "nr": "193"
+          },
+          {
+            "heiti": "heimskautaeldsneyti",
+            "nr": "391"
           },
           {
             "heiti": "norrænt samstarf",
@@ -816,6 +888,10 @@
           {
             "heiti": "norrænt samstarf um kaup á drónum",
             "nr": "225"
+          },
+          {
+            "heiti": "reglur um losun og eldsneytisnotkun skipa",
+            "nr": "392"
           },
           {
             "heiti": "samstarf Grænlands og Íslands",
@@ -895,6 +971,10 @@
             "nr": "235"
           },
           {
+            "heiti": "Almannaheillasjóður",
+            "nr": "368"
+          },
+          {
             "heiti": "almannatryggingar",
             "nr": "155"
           },
@@ -913,6 +993,10 @@
           {
             "heiti": "atvinnuleysistryggingar og vinnumarkaðsaðgerðir",
             "nr": "312"
+          },
+          {
+            "heiti": "augasteinsaðgerðir og samningar við einkarekna þjónustuaðila",
+            "nr": "389"
           },
           {
             "heiti": "áframhaldandi skólastarf Laugaskóla",
@@ -965,6 +1049,10 @@
           {
             "heiti": "dreifing fréttaefnis hjá Ríkisútvarpinu",
             "nr": "321"
+          },
+          {
+            "heiti": "efnahagsleg áhrif viðskiptakerfis ESB með losunarheimildir á Íslandi",
+            "nr": "376"
           },
           {
             "heiti": "efnaskiptaaðgerðir",
@@ -1063,6 +1151,14 @@
             "nr": "358"
           },
           {
+            "heiti": "fjármunir til loftslagsmála",
+            "nr": "382"
+          },
+          {
+            "heiti": "fjármunir til loftslagsmála",
+            "nr": "383"
+          },
+          {
             "heiti": "fjárstyrkir til að skapa umræðuvettvang um kosti og galla aðildar Íslands að Evrópusambandinu",
             "nr": "364"
           },
@@ -1113,6 +1209,10 @@
           {
             "heiti": "framlög til þróunarsamvinnu",
             "nr": "233"
+          },
+          {
+            "heiti": "framvinda stefnumótandi byggðaáætlunar árin 2022--2036",
+            "nr": "375"
           },
           {
             "heiti": "fæðingar- og foreldraorlof og sorgarleyfi",
@@ -1237,6 +1337,10 @@
           {
             "heiti": "kostnaður við starfslokasamninga",
             "nr": "282"
+          },
+          {
+            "heiti": "kostnaður við starfslokasamninga",
+            "nr": "379"
           },
           {
             "heiti": "laun forseta Íslands og Stjórnarráð Íslands",
@@ -1583,6 +1687,10 @@
             "nr": "132"
           },
           {
+            "heiti": "þjónustugjöld",
+            "nr": "377"
+          },
+          {
             "heiti": "örorkubyrði lífeyrissjóða",
             "nr": "163"
           }
@@ -1815,6 +1923,10 @@
           {
             "heiti": "þjónustugjöld",
             "nr": "132"
+          },
+          {
+            "heiti": "þjónustugjöld",
+            "nr": "377"
           }
         ]
       }
@@ -1866,6 +1978,10 @@
             "nr": "313"
           },
           {
+            "heiti": "augasteinsaðgerðir og samningar við einkarekna þjónustuaðila",
+            "nr": "389"
+          },
+          {
             "heiti": "ábyrgð á líki",
             "nr": "185"
           },
@@ -1914,6 +2030,10 @@
             "nr": "294"
           },
           {
+            "heiti": "fíknimeðferðarúrræði fyrir börn",
+            "nr": "380"
+          },
+          {
             "heiti": "framkvæmd öryggisráðstafana samkvæmt dómsúrlausn",
             "nr": "305"
           },
@@ -1936,6 +2056,10 @@
           {
             "heiti": "greiðslur til foreldra langveikra eða alvarlega fatlaðra barna",
             "nr": "371"
+          },
+          {
+            "heiti": "greiðslur til foreldra langveikra eða alvarlega fatlaðra barna",
+            "nr": "385"
           },
           {
             "heiti": "greiðsluþátttaka sjúklinga",
@@ -2034,12 +2158,20 @@
             "nr": "372"
           },
           {
+            "heiti": "úrbætur í málefnum barna og ungmenna með tal- og málþroskaröskun",
+            "nr": "386"
+          },
+          {
             "heiti": "viðhlítandi þjónusta vegna vímuefnavanda",
             "nr": "54"
           },
           {
             "heiti": "VIRK",
             "nr": "345"
+          },
+          {
+            "heiti": "VIRK",
+            "nr": "381"
           },
           {
             "heiti": "öryggismál í jarðgöngum",
@@ -2299,7 +2431,7 @@
             "nr": "289"
           },
           {
-            "heiti": "landhelgi, aðlægt belti, efnahagslögsaga og landgrunnur",
+            "heiti": "landhelgi, aðlægt belti, efnahagslögsaga og landgrunn",
             "nr": "315"
           },
           {
@@ -2463,6 +2595,10 @@
           {
             "heiti": "aðgangur að sjúkraskrám",
             "nr": "97"
+          },
+          {
+            "heiti": "Almannaheillasjóður",
+            "nr": "368"
           },
           {
             "heiti": "almannatryggingar og heilbrigðisþjónusta",
@@ -2696,6 +2832,10 @@
             "nr": "267"
           },
           {
+            "heiti": "fjarvist frá skóla",
+            "nr": "378"
+          },
+          {
             "heiti": "fjarvistir grunnskólanemenda vegna ferðalaga",
             "nr": "270"
           },
@@ -2726,6 +2866,10 @@
           {
             "heiti": "grunnskólar",
             "nr": "367"
+          },
+          {
+            "heiti": "grunnskólar",
+            "nr": "388"
           },
           {
             "heiti": "heimavist Fjölbrautaskóla Suðurlands",
@@ -2804,6 +2948,10 @@
             "nr": "361"
           },
           {
+            "heiti": "skólameistarar framhaldsskóla",
+            "nr": "384"
+          },
+          {
             "heiti": "staða og árangur í grunnskólum",
             "nr": "157"
           },
@@ -2826,6 +2974,10 @@
           {
             "heiti": "umferðarlög",
             "nr": "64"
+          },
+          {
+            "heiti": "úrbætur í málefnum barna og ungmenna með tal- og málþroskaröskun",
+            "nr": "386"
           },
           {
             "heiti": "útlendingar og atvinnuréttindi útlendinga",
@@ -2875,6 +3027,10 @@
             "nr": "269"
           },
           {
+            "heiti": "augasteinsaðgerðir og samningar við einkarekna þjónustuaðila",
+            "nr": "389"
+          },
+          {
             "heiti": "aukin færni innflytjenda í íslensku",
             "nr": "181"
           },
@@ -2905,6 +3061,10 @@
           {
             "heiti": "greiðslur til foreldra langveikra eða alvarlega fatlaðra barna",
             "nr": "371"
+          },
+          {
+            "heiti": "greiðslur til foreldra langveikra eða alvarlega fatlaðra barna",
+            "nr": "385"
           },
           {
             "heiti": "greiðsluþátttaka sjúklinga",
@@ -2957,6 +3117,10 @@
           {
             "heiti": "VIRK",
             "nr": "345"
+          },
+          {
+            "heiti": "VIRK",
+            "nr": "381"
           },
           {
             "heiti": "örorkubyrði lífeyrissjóða",
@@ -3017,6 +3181,10 @@
             "nr": "196"
           },
           {
+            "heiti": "framvinda stefnumótandi byggðaáætlunar árin 2022--2036",
+            "nr": "375"
+          },
+          {
             "heiti": "jöfn staða og jafn réttur kynjanna",
             "nr": "297"
           },
@@ -3073,6 +3241,10 @@
             "nr": "282"
           },
           {
+            "heiti": "kostnaður við starfslokasamninga",
+            "nr": "379"
+          },
+          {
             "heiti": "laun forseta Íslands og Stjórnarráð Íslands",
             "nr": "314"
           },
@@ -3111,6 +3283,10 @@
           {
             "heiti": "skólameistarar framhaldsskóla",
             "nr": "361"
+          },
+          {
+            "heiti": "skólameistarar framhaldsskóla",
+            "nr": "384"
           },
           {
             "heiti": "starfsmannamál háskóla",
@@ -3247,6 +3423,10 @@
             "nr": "329"
           },
           {
+            "heiti": "framvinda stefnumótandi byggðaáætlunar árin 2022--2036",
+            "nr": "375"
+          },
+          {
             "heiti": "fyrsta og annars stigs þjónusta á vegum sveitarfélaga",
             "nr": "171"
           },
@@ -3331,6 +3511,10 @@
           {
             "heiti": "aðild ríkisfyrirtækja að Viðskiptaráði og Samtökum atvinnulífsins",
             "nr": "209"
+          },
+          {
+            "heiti": "Almannaheillasjóður",
+            "nr": "368"
           },
           {
             "heiti": "almannatryggingar",
@@ -3433,8 +3617,16 @@
             "nr": "294"
           },
           {
+            "heiti": "fíknimeðferðarúrræði fyrir börn",
+            "nr": "380"
+          },
+          {
             "heiti": "fjarvist frá skóla",
             "nr": "267"
+          },
+          {
+            "heiti": "fjarvist frá skóla",
+            "nr": "378"
           },
           {
             "heiti": "fjárstyrkir til að skapa umræðuvettvang um kosti og galla aðildar Íslands að Evrópusambandinu",
@@ -3481,12 +3673,20 @@
             "nr": "371"
           },
           {
+            "heiti": "greiðslur til foreldra langveikra eða alvarlega fatlaðra barna",
+            "nr": "385"
+          },
+          {
             "heiti": "greiðsluþátttaka sjúklinga",
             "nr": "295"
           },
           {
             "heiti": "grunnskólar",
             "nr": "367"
+          },
+          {
+            "heiti": "grunnskólar",
+            "nr": "388"
           },
           {
             "heiti": "hagsmunir hreyfihamlaðra og skipulagsáætlanir í Reykjavík",
@@ -3665,6 +3865,10 @@
             "nr": "372"
           },
           {
+            "heiti": "úrbætur í málefnum barna og ungmenna með tal- og málþroskaröskun",
+            "nr": "386"
+          },
+          {
             "heiti": "útlendingar og atvinnuréttindi útlendinga",
             "nr": "316"
           },
@@ -3675,6 +3879,10 @@
           {
             "heiti": "VIRK",
             "nr": "345"
+          },
+          {
+            "heiti": "VIRK",
+            "nr": "381"
           },
           {
             "heiti": "þekkingarsetur til undirbúningsnáms fyrir börn af erlendum uppruna",
@@ -3738,12 +3946,24 @@
         "id": 24,
         "mal": [
           {
+            "heiti": "aðgerðir til að draga úr losun sótagna",
+            "nr": "390"
+          },
+          {
             "heiti": "áhafnir skipa",
             "nr": "86"
           },
           {
             "heiti": "borgarstefna fyrir árin 2025--2040",
             "nr": "85"
+          },
+          {
+            "heiti": "efnahagsleg áhrif viðskiptakerfis ESB með losunarheimildir á Íslandi",
+            "nr": "376"
+          },
+          {
+            "heiti": "eitrunaráhrif svartolíu á norðurslóðum",
+            "nr": "394"
           },
           {
             "heiti": "endurnýjun vegarins yfir Kjöl með einkaframkvæmd",
@@ -3798,8 +4018,20 @@
             "nr": "358"
           },
           {
+            "heiti": "fjármunir til loftslagsmála",
+            "nr": "382"
+          },
+          {
+            "heiti": "fjármunir til loftslagsmála",
+            "nr": "383"
+          },
+          {
             "heiti": "fornskip",
             "nr": "166"
+          },
+          {
+            "heiti": "framkvæmd svartolíubanns",
+            "nr": "393"
           },
           {
             "heiti": "framkvæmdir við þjóðveginn yfir Öxi hafnar",
@@ -3822,6 +4054,10 @@
             "nr": "271"
           },
           {
+            "heiti": "heimskautaeldsneyti",
+            "nr": "391"
+          },
+          {
             "heiti": "helmingamokstur",
             "nr": "182"
           },
@@ -3838,7 +4074,7 @@
             "nr": "144"
           },
           {
-            "heiti": "landhelgi, aðlægt belti, efnahagslögsaga og landgrunnur",
+            "heiti": "landhelgi, aðlægt belti, efnahagslögsaga og landgrunn",
             "nr": "315"
           },
           {
@@ -3852,6 +4088,10 @@
           {
             "heiti": "rannsókn á jarðlögum og hafsbotni á fyrirhugaðri gangaleið milli lands og Vestmannaeyja",
             "nr": "75"
+          },
+          {
+            "heiti": "reglur um losun og eldsneytisnotkun skipa",
+            "nr": "392"
           },
           {
             "heiti": "samgönguáætlun fyrir árin 2026--2040 ásamt fimm ára aðgerðaáætlun fyrir árin 2026--2030",
@@ -3880,6 +4120,10 @@
           {
             "heiti": "stefnur og aðgerðaáætlanir á sviði húsnæðis- og skipulagsmála, samgangna og byggðamála",
             "nr": "105"
+          },
+          {
+            "heiti": "strætisvagnar frá kínverska framleiðandanum Yutong",
+            "nr": "387"
           },
           {
             "heiti": "Sundabraut",
@@ -4085,6 +4329,10 @@
             "nr": "329"
           },
           {
+            "heiti": "framvinda stefnumótandi byggðaáætlunar árin 2022--2036",
+            "nr": "375"
+          },
+          {
             "heiti": "fyrsta og annars stigs þjónusta á vegum sveitarfélaga",
             "nr": "171"
           },
@@ -4201,6 +4449,10 @@
             "nr": "105"
           },
           {
+            "heiti": "strætisvagnar frá kínverska framleiðandanum Yutong",
+            "nr": "387"
+          },
+          {
             "heiti": "sveitarstjórnarlög",
             "nr": "24"
           },
@@ -4293,8 +4545,20 @@
         "id": 29,
         "mal": [
           {
+            "heiti": "aðgerðir til að draga úr losun sótagna",
+            "nr": "390"
+          },
+          {
             "heiti": "breyting á ýmsum lögum vegna einföldunar og samræmingar leyfisferla á sviði umhverfis- og orkumála",
             "nr": "265"
+          },
+          {
+            "heiti": "efnahagsleg áhrif viðskiptakerfis ESB með losunarheimildir á Íslandi",
+            "nr": "376"
+          },
+          {
+            "heiti": "eitrunaráhrif svartolíu á norðurslóðum",
+            "nr": "394"
           },
           {
             "heiti": "fjármunir til loftslagsmála",
@@ -4341,6 +4605,22 @@
             "nr": "358"
           },
           {
+            "heiti": "fjármunir til loftslagsmála",
+            "nr": "382"
+          },
+          {
+            "heiti": "fjármunir til loftslagsmála",
+            "nr": "383"
+          },
+          {
+            "heiti": "framkvæmd svartolíubanns",
+            "nr": "393"
+          },
+          {
+            "heiti": "heimskautaeldsneyti",
+            "nr": "391"
+          },
+          {
             "heiti": "kílómetragjald á ökutæki",
             "nr": "144"
           },
@@ -4351,6 +4631,10 @@
           {
             "heiti": "líkbrennsla",
             "nr": "96"
+          },
+          {
+            "heiti": "reglur um losun og eldsneytisnotkun skipa",
+            "nr": "392"
           },
           {
             "heiti": "samgönguáætlun fyrir árin 2026--2040 ásamt fimm ára aðgerðaáætlun fyrir árin 2026--2030",
@@ -4375,6 +4659,10 @@
         "id": 30,
         "mal": [
           {
+            "heiti": "aðgerðir til að draga úr losun sótagna",
+            "nr": "390"
+          },
+          {
             "heiti": "afmörkun á uppbyggingu vindorkuvera",
             "nr": "71"
           },
@@ -4391,8 +4679,20 @@
             "nr": "307"
           },
           {
+            "heiti": "efnahagsleg áhrif viðskiptakerfis ESB með losunarheimildir á Íslandi",
+            "nr": "376"
+          },
+          {
+            "heiti": "eitrunaráhrif svartolíu á norðurslóðum",
+            "nr": "394"
+          },
+          {
             "heiti": "flýtiframkvæmd vatnsaflsvirkjana",
             "nr": "136"
+          },
+          {
+            "heiti": "framkvæmd svartolíubanns",
+            "nr": "393"
           },
           {
             "heiti": "framkvæmdaáætlun náttúruminjaskrár fyrir árin 2025--2029",
@@ -4401,6 +4701,10 @@
           {
             "heiti": "fullgilding samnings um loftslagsbreytingar, viðskipti og sjálfbæra þróun",
             "nr": "219"
+          },
+          {
+            "heiti": "heimskautaeldsneyti",
+            "nr": "391"
           },
           {
             "heiti": "jarðakaup erlendra aðila",
@@ -4415,7 +4719,7 @@
             "nr": "144"
           },
           {
-            "heiti": "landhelgi, aðlægt belti, efnahagslögsaga og landgrunnur",
+            "heiti": "landhelgi, aðlægt belti, efnahagslögsaga og landgrunn",
             "nr": "315"
           },
           {
@@ -4433,6 +4737,10 @@
           {
             "heiti": "raforkulög",
             "nr": "191"
+          },
+          {
+            "heiti": "reglur um losun og eldsneytisnotkun skipa",
+            "nr": "392"
           },
           {
             "heiti": "skattar, tollar og gjöld",
@@ -4477,6 +4785,10 @@
             "nr": "78"
           },
           {
+            "heiti": "aðgerðir til að draga úr losun sótagna",
+            "nr": "390"
+          },
+          {
             "heiti": "afmörkun á uppbyggingu vindorkuvera",
             "nr": "71"
           },
@@ -4507,6 +4819,14 @@
           {
             "heiti": "breyting á þingsályktun nr. 24/152 um áætlun um vernd og orkunýtingu landsvæða",
             "nr": "307"
+          },
+          {
+            "heiti": "efnahagsleg áhrif viðskiptakerfis ESB með losunarheimildir á Íslandi",
+            "nr": "376"
+          },
+          {
+            "heiti": "eitrunaráhrif svartolíu á norðurslóðum",
+            "nr": "394"
           },
           {
             "heiti": "endurnýjun vegarins yfir Kjöl með einkaframkvæmd",
@@ -4561,8 +4881,20 @@
             "nr": "358"
           },
           {
+            "heiti": "fjármunir til loftslagsmála",
+            "nr": "382"
+          },
+          {
+            "heiti": "fjármunir til loftslagsmála",
+            "nr": "383"
+          },
+          {
             "heiti": "flýtiframkvæmd vatnsaflsvirkjana",
             "nr": "136"
+          },
+          {
+            "heiti": "framkvæmd svartolíubanns",
+            "nr": "393"
           },
           {
             "heiti": "framkvæmd þjóðaröryggisstefnu fyrir Ísland á árinu 2024",
@@ -4583,6 +4915,10 @@
           {
             "heiti": "heimavist Fjölbrautaskóla Suðurlands",
             "nr": "205"
+          },
+          {
+            "heiti": "heimskautaeldsneyti",
+            "nr": "391"
           },
           {
             "heiti": "húsnæðismál",
@@ -4619,6 +4955,10 @@
           {
             "heiti": "rannsókn á jarðlögum og hafsbotni á fyrirhugaðri gangaleið milli lands og Vestmannaeyja",
             "nr": "75"
+          },
+          {
+            "heiti": "reglur um losun og eldsneytisnotkun skipa",
+            "nr": "392"
           },
           {
             "heiti": "sameining Skipulagsstofnunar og Húsnæðis- og mannvirkjastofnunar",
