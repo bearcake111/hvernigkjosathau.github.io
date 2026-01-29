@@ -48,7 +48,7 @@ const voteAway = document.querySelector('.fjarverandi');
 let arrThingmenn;
 let arrMalaskra;
 let arrEfnisflokkar;
-let currEfnisflokkur;
+let currEfnisflokkur = `Öll mál`;
 let malOrder = `up`;
 let currThingmadur;
 

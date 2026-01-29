@@ -38,7 +38,7 @@ let arrMalaskra;
 let arrEfnisflokkar;
 let currAtkvGrNr;
 let currMal;
-let currEfnisflokkur;
+let currEfnisflokkur = `Öll mál`;
 let dateSorting = true;
 let nameSorting = false;
 let resultSorting = true;
