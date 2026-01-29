@@ -3,7 +3,7 @@
 <!--  fjarverandi, þingmaðurinn ýtti ekki á takka og hafði ekki boðað fjarvist  -->
 <!-- CLEAN Switch out icelandic for english wherever neccessary -->
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -39,9 +39,10 @@
           <div class="profile-container">
             <div class="image-wrapper">
               <img
+                class="profile_picture"
                 src="thingmenn-profile.jpg"
                 alt="profile-picture"
-                class="profile_picture"
+                onerror="this.src = 'thingmenn-profile.jpg'"
               />
               <div class="name-banner">
                 <p id="profile-name" class="name-text"></p>
