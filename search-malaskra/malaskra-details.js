@@ -119,6 +119,11 @@ function foldMal() {
   const fragment = document.createDocumentFragment();
 
   groups.forEach(groupRows => {
+    if (groupRows.length === 1) {
+      fragment.appendChild(groupRows[0]);
+      return;
+    }
+
     groupRows.sort((a, b) => {
       const dA = new Date(
         a.dataset.date.split('.').reverse().join('-') + 'T' + a.dataset.time,
