@@ -43,7 +43,7 @@ function displayThingmennVotes(arrThingmenn) {
     const name = thingmadur.name;
     const party = thingmadur.flokkur;
 
-    const html = `<tr>
+    const html = `<tr class="thingmadur">
                 <th class="name">${name}</th>
                 <th class="party">${party}</th>
                 <td><div class="vote já hidden"></div></td>
@@ -64,6 +64,19 @@ function displayThingmennVotes(arrThingmenn) {
       voteMarker.classList.toggle(`hidden`);
     }
   });
+  assignRows();
+}
+
+function assignRows() {
+  const rows = containerThingmenn.children;
+  let count = 0;
+
+  for (const rowEl of rows) {
+    rowEl.classList.remove(`even`, `odd`);
+    const row = count % 2 === 0 ? `even` : `odd`;
+    rowEl.classList.add(row);
+    count++;
+  }
 }
 
 function sortByName(desc = false) {
@@ -92,6 +105,19 @@ function sortByParty(desc = false) {
   });
 
   rows.forEach(row => containerThingmenn.appendChild(row));
+}
+
+function flipArrow(e) {
+  const arrow = e.currentTarget.querySelector(`.filter-arrow`);
+
+  if (!arrow.classList.contains(`arrow-rotated`)) {
+    const allArrows = document.querySelectorAll(`.filter-arrow`);
+    allArrows.forEach(ar => {
+      ar.classList.remove(`arrow-rotated`);
+    });
+  }
+
+  arrow.classList.toggle('arrow-rotated');
 }
 
 //LOADING DATA//
@@ -147,14 +173,18 @@ tabMalaskra.addEventListener(`click`, function () {
 });
 
 //SORTING//
-labelName.addEventListener(`click`, function () {
-  nameSorting = nameSorting ? false : true;
+labelName.addEventListener(`click`, function (e) {
+  nameSorting = !nameSorting;
   partySorting = true;
+  flipArrow(e);
   sortByName(nameSorting);
+  assignRows();
 });
 
-labelParty.addEventListener(`click`, function () {
-  partySorting = partySorting ? false : true;
+labelParty.addEventListener(`click`, function (e) {
+  partySorting = !partySorting;
   nameSorting = true;
+  flipArrow(e);
   sortByParty(partySorting);
+  assignRows();
 });

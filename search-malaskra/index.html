@@ -30,58 +30,55 @@
 
     <main class="app">
       <section id="thingmadur-valinn">
-        <div class="container">
-          <h3 id="malaskra-searchbar-text">Leita í málaskrá</h3>
-          <input
-            type="text"
-            id="search-malaskra-input"
-            placeholder="Leita að máli"
-          />
-          <input
-            type="button"
-            id="search-malaskra-button"
-            class="button"
-            value="Leita"
-          />
-        </div>
-        <div id="advanced-search-container" class="container">
-          <button class="advanced-search-btn" aria-label="Ítarleg leit">
-            <span class="icon" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
-            <span class="text">Ítarleg leit</span>
-          </button>
-          <div id="date-searchbar" class="container hidden">
-            <div><p>Flokka eftir dagsetningu:</p></div>
-            <div class="choose-date">
-              <p>Frá</p>
-              <input type="date" id="input-date-first" class="date-first" />
-            </div>
-            <div class="choose-date">
-              <p>Til</p>
-              <input type="date" id="input-date-second" class="date-second" />
-            </div>
-            <div class="date-button">
-              <p id="error-no-date" class="hidden">
-                Vinsamlegast veljið dagsetningu
-              </p>
-              <p id="error-wrong-order" class="hidden">
-                Vinsamlegast veljið upphafsdag á undan lokadegi
-              </p>
-              <input
-                type="button"
-                id="search-date-button"
-                class="button"
-                value="Leita"
-              />
-            </div>
+        <div id="search-section">
+          <div class="container">
+            <h3 id="malaskra-searchbar-text">Leita í málaskrá</h3>
+            <input
+              type="text"
+              id="search-malaskra-input"
+              placeholder="Leita að máli"
+            />
+            <input
+              type="button"
+              id="search-malaskra-button"
+              class="button"
+              value="Leita"
+            />
           </div>
+          <div id="advanced-search-container" class="container">
+            <button class="advanced-search-btn" aria-label="Ítarleg leit">
+              <span class="text">Ítarleg leit</span>
+            </button>
+            <div id="date-searchbar" class="container hidden">
+              <div><p>Flokka eftir dagsetningu:</p></div>
+              <div class="choose-date">
+                <p>Frá</p>
+                <input type="date" id="input-date-first" class="date-first" />
+              </div>
+              <div class="choose-date">
+                <p>Til</p>
+                <input type="date" id="input-date-second" class="date-second" />
+              </div>
+              <div class="date-button">
+                <p id="error-no-date" class="error-message hidden">
+                  Vinsamlegast veljið dagsetningu
+                </p>
+                <p id="error-wrong-order" class="error-message hidden">
+                  Vinsamlegast veljið upphafsdag á undan lokadegi
+                </p>
+                <input
+                  type="button"
+                  id="search-date-button"
+                  class="button"
+                  value="Leita"
+                />
+              </div>
+            </div>
 
-          <div id="efnisflokkar" class="container hidden">
-            <div class="yfirflokkur-div">
-              <p id="oll-mal" class="yfirflokkur-txt">Öll mál</p>
+            <div id="efnisflokkar" class="container hidden">
+              <div class="yfirflokkur-div">
+                <p id="oll-mal" class="yfirflokkur-txt">Öll mál</p>
+              </div>
             </div>
           </div>
         </div>
@@ -89,13 +86,28 @@
           <table>
             <thead>
               <tr class="table-descriptions">
-                <th class="category-date">Dags.</th>
-                <th class="category-name">Mál</th>
+                <th class="category-date">
+                  <div class="heading-container">
+                    <h2 class="heading-label">Dags.</h2>
+                    <div id="arrow-date" class="filter-arrow arrow-up"></div>
+                  </div>
+                </th>
+                <th class="category-name">
+                  <div class="heading-container">
+                    <h2 class="heading-label">Mál</h2>
+                    <div id="arrow-name" class="filter-arrow arrow-up"></div>
+                  </div>
+                </th>
                 <th class="category-more"></th>
                 <th class="vote-description">Já</th>
                 <th class="vote-description">Nei</th>
                 <th class="vote-description">Greiddi ekki atkvæði</th>
-                <th class="category-result">Afgreiðsla</th>
+                <th class="category-result">
+                  <div class="heading-container">
+                    <h2 class="heading-label">Afgreiðsla</h2>
+                    <div id="arrow-results" class="filter-arrow arrow-up"></div>
+                  </div>
+                </th>
               </tr>
             </thead>
             <tbody class="mal-container">

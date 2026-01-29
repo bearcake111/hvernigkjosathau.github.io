@@ -1,11 +1,13 @@
 :root {
-  --bg: #d1d8dd; /* page background (mid-dark) */
-  --surface: #c4c7ca; /* cards / panels (lighter than bg) */
-  --muted: #8f9498; /* subtle surfaces / hover */
-  --muted-2: #93979a; /* borders / separators */
-  --ink: #3f3f3f; /* main text (light) */
-  --subtle: #515354; /* secondary text */
+  --bg: #f1eeff; /* page background (mid-dark) */
+  --surface: #cfd6de; /* cards / panels (lighter than bg) */
+  --muted: #a9aebe; /* subtle surfaces / hover */
+  --muted-2: #7d808b; /* borders / separators */
+  --ink: #171a1f; /* main text (light) */
+  --subtle: #e8eaf1; /* secondary text */
   --accent-strong: #85898d; /* header / sticky bars */
+  --nav: #2e2f34;
+  --nav-press: #525666;
 }
 
 * {
@@ -21,8 +23,7 @@ html {
 
 body {
   font-family: 'Poppins', sans-serif;
-  color: #444;
-  background-color: #f3f3f3;
+  background-color: var(--bg);
   height: 100vh;
 }
 
@@ -30,20 +31,21 @@ nav {
   display: flex;
   justify-content: left;
   align-items: center;
-  background-color: var(--surface);
-  border-bottom: 1px solid var(--ink);
+  background-color: var(--nav);
+  color: var(--subtle);
+  border-bottom: 1px solid var(--muted);
 }
 
 nav > div {
   height: 10vh;
   padding: 3vw 2vw;
-  background-image: linear-gradient(var(--bg), var(--muted));
-  border-right: 1px solid var(--ink);
+  background-color: var(--nav);
+  border-right: 1px solid var(--muted);
 }
 
 .site-button:hover {
-  color: var(--surface);
-  background-color: var(--subtle);
+  color: var(--subtle);
+  background-color: var(--nav-press);
   background-image: none;
   cursor: pointer;
 }
@@ -53,16 +55,33 @@ nav > div {
 }
 
 .curr-tab {
-  color: var(--surface);
-  background-color: var(--subtle);
+  color: var(--subtle);
+  background-color: var(--nav-press);
   background-image: none;
 }
 
-.separator {
-  width: 100%;
-  height: 10vh;
-  background-color: #939191;
-  margin: 10px 0;
+section {
+  margin: 1%;
+  background-color: var(--surface);
+  border-radius: 8px;
+}
+
+/* SEARCHBAR */
+#searchbar {
+  padding: 1%;
+  display: flex;
+  align-items: center;
+  gap: 1%;
+}
+
+#input-nafn {
+  font-size: 1.7rem;
+  margin: 2%;
+  padding: 0.6rem 0.8rem;
+  border: 2px solid var(--muted-2);
+  border-radius: 6px;
+  background: transparent;
+  color: var(--ink);
 }
 
 /* PROFILE PICTURES */
@@ -70,15 +89,17 @@ nav > div {
 #profiles {
   display: flex;
   flex-wrap: wrap;
-  gap: 2.3rem;
+  justify-content: center;
+  align-items: center;
+  gap: 2.1rem;
   padding: 2rem;
 }
 
 .profile-container {
-  width: 22%;
-  min-width: 20px;
-  max-width: 130px;
-  box-sizing: border-box;
+  max-width: 30%;
+  height: auto;
+  flex: 1 1 auto;
+  object-fit: cover;
   transition: 0.3s ease;
 }
 
@@ -105,13 +126,15 @@ nav > div {
   left: 0;
   width: 100%;
   height: 20%;
-
   background: rgba(0, 0, 0, 0.4);
   color: white;
-
   display: flex;
   align-items: center;
   padding-left: 1rem;
-
   box-sizing: border-box;
+}
+
+.name-text {
+  font-size: 1.4rem;
+  font-weight: 500;
 }

@@ -28,6 +28,7 @@ const linkMalDocuments = document.getElementById(`mal-documents`);
 const labelDate = document.querySelector(`.category-date`);
 const labelName = document.querySelector(`.category-name`);
 const labelResult = document.querySelector(`.category-result`);
+
 const buttonThingmenn = document.getElementById(`thingmenn-button`);
 const containerMal = document.querySelector(`.mal-container`);
 
@@ -86,15 +87,15 @@ function displayMal(malaskra) {
 
   tempMalaskra.forEach(mal => {
     const link = `../mal-details/index.html?atkvGrNr=${encodeURIComponent(
-      mal.atkvGrNr
+      mal.atkvGrNr,
     )}`;
     const html = `<tr class="mal ${row}" data-nr="${mal.nr}" data-atkvgrnr="${mal.atkvGrNr}" data-date="${mal.date}"data-time="${mal.time}">    
-                <th>${mal.date}</th>
+                <th class="mal-date">${mal.date}</th>
                 <th class="name"><a href="${link}">${mal.name}</a></th>
                 <th class="more"><a href="${link}">Nánar</a></th>                
-                <td>${mal.atkv.ja}</td>
-                <td>${mal.atkv.nei}</td>
-                <td>${mal.atkv.greiðirEkki}</td>
+                <td class="vote">${mal.atkv.ja}</td>
+                <td class="vote">${mal.atkv.nei}</td>
+                <td class="vote">${mal.atkv.greiðirEkki}</td>
                 <td class="result">${mal.atkv.afgr}</td>
               </tr>`;
     containerMal.insertAdjacentHTML(`afterbegin`, html);
@@ -120,10 +121,10 @@ function foldMal() {
   groups.forEach(groupRows => {
     groupRows.sort((a, b) => {
       const dA = new Date(
-        a.dataset.date.split('.').reverse().join('-') + 'T' + a.dataset.time
+        a.dataset.date.split('.').reverse().join('-') + 'T' + a.dataset.time,
       );
       const dB = new Date(
-        b.dataset.date.split('.').reverse().join('-') + 'T' + b.dataset.time
+        b.dataset.date.split('.').reverse().join('-') + 'T' + b.dataset.time,
       );
       return dB - dA;
     });
@@ -141,7 +142,6 @@ function foldMal() {
     if (!arrow) {
       arrow = document.createElement('div');
       arrow.className = 'fold-arrow';
-      arrow.textContent = '›';
       newest.firstElementChild.prepend(arrow);
     }
 
@@ -209,7 +209,7 @@ function filterMalaskra(arrMalaskra) {
     return false;
   });
   console.log(
-    `Found ${count} matches out of a total of ${arrMalaskra.length} mal.`
+    `Found ${count} matches out of a total of ${arrMalaskra.length} mal.`,
   );
 
   return filteredMalaskra;
@@ -223,7 +223,7 @@ function searchByMal() {
   }
 
   const filteredMalaskra = arrMalaskra.filter(mal =>
-    normalizeString(mal.name).includes(input)
+    normalizeString(mal.name).includes(input),
   );
 
   displayMal(filteredMalaskra);
@@ -332,6 +332,19 @@ function sortByDate(desc = false) {
   assignRows();
 }
 
+function flipArrow(e) {
+  const arrow = e.currentTarget.querySelector(`.filter-arrow`);
+
+  if (!arrow.classList.contains(`arrow-rotated`)) {
+    const allArrows = document.querySelectorAll(`.filter-arrow`);
+    allArrows.forEach(ar => {
+      ar.classList.remove(`arrow-rotated`);
+    });
+  }
+
+  arrow.classList.toggle('arrow-rotated');
+}
+
 //LOADING DATA//
 
 async function loadMalaskra() {
@@ -378,14 +391,21 @@ tabMalaskra.addEventListener(`click`, function () {
   window.location.href = `../search-malaskra/index.html`;
 });
 
+//SEARCH MALASKRA
+buttonSearchMalaskra.addEventListener(`click`, searchByMal);
+
+inputSearchMalaskra.addEventListener('keypress', function (event) {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    buttonSearchMalaskra.click();
+  }
+});
+
 //ADVANCED-SEARCH
 buttonAdvancedSearch.addEventListener(`click`, revealAdvancedSearch);
 
 //DATE SEARCHBAR
 buttonSearchDate.addEventListener(`click`, searchByDate);
-
-//SEARCH MALASKRA
-buttonSearchMalaskra.addEventListener(`click`, searchByMal);
 
 //EFNISFLOKKAR
 containerEfnisflokkar.addEventListener('click', event => {
@@ -404,28 +424,31 @@ containerEfnisflokkar.addEventListener('click', event => {
 });
 
 //SORT BY DATE//
-labelDate.addEventListener(`click`, function () {
-  dateSorting = dateSorting ? false : true;
+labelDate.addEventListener(`click`, function (e) {
+  dateSorting = !dateSorting;
   resultSorting = true;
   nameSorting = true;
+  flipArrow(e);
   sortByDate(dateSorting);
   assignRows();
 });
 
 //SORT BY NAME//
-labelName.addEventListener(`click`, function () {
-  nameSorting = nameSorting ? false : true;
+labelName.addEventListener(`click`, function (e) {
+  nameSorting = !nameSorting;
   resultSorting = true;
   dateSorting = true;
+  flipArrow(e);
   sortByName(nameSorting);
   assignRows();
 });
 
 //SORT BY RESULT//
-labelResult.addEventListener(`click`, function () {
-  resultSorting = resultSorting ? false : true;
+labelResult.addEventListener(`click`, function (e) {
+  resultSorting = !resultSorting;
   nameSorting = true;
   dateSorting = true;
+  flipArrow(e);
   sortByResult(resultSorting);
   assignRows();
 });

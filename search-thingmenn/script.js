@@ -35,7 +35,7 @@ const buttonSearchMalaskra = document.getElementById(`search-malaskra-button`);
 const containerEfnisflokkar = document.getElementById('efnisflokkar');
 
 const containerDagsetning = document.getElementById(`dags-container`);
-const arrow = document.getElementById('filter-arrow');
+const arrow = document.querySelector('.filter-arrow');
 
 const containerMal = document.querySelector(`.mal-container`);
 const voteYes = document.querySelector('.já');
@@ -56,7 +56,7 @@ let currThingmadur;
 
 function findThingmadur() {
   currThingmadur = arrThingmenn.find(
-    thingmadur => thingmadur.name === labelName.textContent
+    thingmadur => thingmadur.name === labelName.textContent,
   );
   return currThingmadur;
 }
@@ -183,7 +183,7 @@ function displayMal(malaskra) {
     containerMal.insertAdjacentHTML(`afterbegin`, html);
     //Add votes
     const foundVote = mal.atkvListi.find(
-      item => item.nafn === labelName.textContent
+      item => item.nafn === labelName.textContent,
     );
 
     if (foundVote) {
@@ -223,7 +223,7 @@ function filterMalaskra(arrMalaskra) {
     return false;
   });
   console.log(
-    `Found ${count} matches out of a total of ${arrMalaskra.length} mal.`
+    `Found ${count} matches out of a total of ${arrMalaskra.length} mal.`,
   );
 
   return filteredMalaskra;
@@ -249,10 +249,10 @@ function foldMal() {
 
     items.sort((a, b) => {
       const dateA = new Date(
-        a.date.split('.').reverse().join('-') + `T` + a.time
+        a.date.split('.').reverse().join('-') + `T` + a.time,
       );
       const dateB = new Date(
-        b.date.split('.').reverse().join('-') + `T` + b.time
+        b.date.split('.').reverse().join('-') + `T` + b.time,
       );
       return dateB - dateA;
     });
@@ -272,8 +272,6 @@ function foldMal() {
     if (!arrow) {
       arrow = document.createElement('div');
       arrow.className = 'fold-arrow';
-      arrow.textContent = '›';
-      // prepend arrow cell or append to first cell depending on your layout
       newest.firstElementChild.prepend(arrow);
     }
 
@@ -312,11 +310,11 @@ function sortMalaskra(tempMalaskra, order = 'up') {
   groupArr.sort((groupA, groupB) => {
     const newestA = parseDT(
       groupA[groupA.length - 1].date,
-      groupA[groupA.length - 1].time
+      groupA[groupA.length - 1].time,
     );
     const newestB = parseDT(
       groupB[groupB.length - 1].date,
-      groupB[groupB.length - 1].time
+      groupB[groupB.length - 1].time,
     );
 
     return order === 'up' ? newestA - newestB : newestB - newestA;
@@ -388,11 +386,12 @@ function searchByMal() {
   }
 
   const filteredMalaskra = arrMalaskra.filter(mal =>
-    normalizeString(mal.name).includes(input)
+    normalizeString(mal.name).includes(input),
   );
 
   displayMal(filteredMalaskra);
   moreInfoRedirect();
+  inputSearchMalaskra.value = ``;
   return filteredMalaskra;
 }
 
@@ -413,7 +412,7 @@ function moreInfoRedirect() {
     malHeading.addEventListener('click', () => {
       const atkvGrNr = container.dataset.atkvgrnr;
       const url = `../mal-details/index.html?atkvGrNr=${encodeURIComponent(
-        atkvGrNr
+        atkvGrNr,
       )}`;
       window.location.href = url;
     });
@@ -490,14 +489,21 @@ tabMalaskra.addEventListener(`click`, function () {
   window.location.href = `../search-malaskra/index.html`;
 });
 
+//SEARCH MALASKRA
+buttonSearchMalaskra.addEventListener(`click`, searchByMal);
+
+inputSearchMalaskra.addEventListener('keypress', function (event) {
+  if (event.key === 'Enter') {
+    event.preventDefault();
+    buttonSearchMalaskra.click();
+  }
+});
+
 //ADVANCED-SEARCH
 buttonAdvancedSearch.addEventListener(`click`, revealAdvancedSearch);
 
 //DATE SEARCHBAR
 buttonSearchDate.addEventListener(`click`, searchByDate);
-
-//SEARCH MALASKRA
-buttonSearchMalaskra.addEventListener(`click`, searchByMal);
 
 //EFNISFLOKKAR
 containerEfnisflokkar.addEventListener('click', event => {

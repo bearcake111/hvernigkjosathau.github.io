@@ -34,9 +34,7 @@
     </nav>
 
     <main class="app">
-      <section id="velja-thingmann" class="hidden"></section>
       <section id="thingmadur-valinn">
-        <!-- Thingfolk -->
         <div id="profile-container" class="container">
           <div class="profile-container">
             <div class="image-wrapper">
@@ -76,11 +74,6 @@
         </div>
         <div id="advanced-search-container" class="container">
           <button class="advanced-search-btn" aria-label="Ítarleg leit">
-            <span class="icon" aria-hidden="true">
-              <span></span>
-              <span></span>
-              <span></span>
-            </span>
             <span class="text">Ítarleg leit</span>
           </button>
           <div id="date-searchbar" class="container hidden">
@@ -94,10 +87,10 @@
               <input type="date" id="input-date-second" class="date-second" />
             </div>
             <div class="date-button">
-              <p id="error-no-date" class="hidden">
+              <p id="error-no-date" class="error-message hidden">
                 Vinsamlegast veljið dagsetningu
               </p>
-              <p id="error-wrong-order" class="hidden">
+              <p id="error-wrong-order" class="error-message hidden">
                 Vinsamlegast veljið upphafsdag á undan lokadegi
               </p>
               <input
@@ -121,8 +114,8 @@
               <tr class="table-descriptions">
                 <th>
                   <div id="dags-container" class="dags-container">
-                    <div id="filter-arrow" class="arrow-up"></div>
                     <h2 id="label-dags">Dagsetning</h2>
+                    <div class="filter-arrow arrow-up"></div>
                   </div>
                 </th>
                 <th id="mal-container-top" colspan="2"><h2>Mál</h2></th>
