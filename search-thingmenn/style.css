@@ -1,11 +1,11 @@
 :root {
-  --bg: #f1eeff; /* page background (mid-dark) */
-  --surface: #cfd6de; /* cards / panels (lighter than bg) */
-  --muted: #a9aebe; /* subtle surfaces / hover */
-  --muted-2: #7d808b; /* borders / separators */
-  --ink: #171a1f; /* main text (light) */
-  --subtle: #e8eaf1; /* secondary text */
-  --accent-strong: #85898d; /* header / sticky bars */
+  --bg: #f1eeff;
+  --surface: #cfd6de;
+  --muted: #a9aebe;
+  --muted-2: #7d808b;
+  --ink: #171a1f;
+  --subtle: #e8eaf1;
+  --accent-strong: #85898d;
   --nav: #2e2f34;
   --nav-press: #525666;
 }
@@ -69,7 +69,7 @@ nav > div {
   background-image: none;
 }
 
-/* layout container */
+/* LAYOUT CONTAINER */
 .container {
   min-width: 60px;
   margin: 0 auto;
@@ -131,7 +131,7 @@ nav > div {
   white-space: nowrap;
 }
 
-/* advanced search button */
+/* ADVANCED SEARCH BUTTON */
 .advanced-search-btn {
   display: inline-flex;
   align-items: center;
@@ -159,7 +159,7 @@ nav > div {
   color: red;
 }
 
-/* categories chip styles */
+/* CATEGORIES */
 .yfirflokkur-div {
   display: inline-block;
   margin: 0.35rem;
@@ -270,7 +270,7 @@ thead th {
   text-decoration: underline;
 }
 
-/* votes colors */
+/* VOTE COLORS */
 .vote {
   height: 12px;
   width: 12px;
@@ -313,7 +313,7 @@ td {
   background: var(--muted);
 }
 
-/* utility classes */
+/* UTILITY CLASSES */
 .hidden {
   display: none;
 }
@@ -337,7 +337,7 @@ input[type='date']:focus {
   background: rgba(255, 255, 255, 0.01);
 }
 
-/* responsive */
+/* RESPONSIVE */
 @media (max-width: 900px) {
   .profile-container {
     width: 100%;
@@ -354,7 +354,7 @@ input[type='date']:focus {
   }
 }
 
-/* small helpers used by script */
+/* HELPERS */
 
 .filter-arrow {
   display: inline-block;
@@ -389,7 +389,6 @@ input[type='date']:focus {
   transform: rotate(45deg);
 }
 
-/* selection */
 ::selection {
   background: var(--muted-2);
   color: var(--ink);

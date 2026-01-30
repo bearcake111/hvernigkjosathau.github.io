@@ -64,14 +64,11 @@ function addCategories() {
     containerEfnisflokkar.insertAdjacentHTML(`afterbegin`, html);
   });
 
-  //Add eventListeners for hovering
   document.querySelectorAll(`.yfirflokkur-div`).forEach(div => {
     div.addEventListener(`mouseenter`, function () {
-      //Change color of label
       this.style.backgroundColor = `#DDDDDD`;
     });
     div.addEventListener(`mouseleave`, function () {
-      //Change color of label
       this.style.backgroundColor = ``;
     });
   });
@@ -142,7 +139,6 @@ function foldMal() {
       r.classList.add('older', 'hidden');
     });
 
-    // arrow
     let arrow = newest.querySelector('.fold-arrow');
     if (!arrow) {
       arrow = document.createElement('div');
@@ -163,7 +159,6 @@ function foldMal() {
   containerMal.appendChild(fragment);
 }
 
-//Assign rows
 function assignRows() {
   console.log(`assigning rows`);
   const rows = containerMal.children;
@@ -189,7 +184,6 @@ function formatDate(date) {
   return newDate;
 }
 
-//Filter by efnisflokkur
 function filterMalaskra(arrMalaskra) {
   if (currEfnisflokkur === `Öll mál`) {
     return arrMalaskra;
@@ -260,7 +254,6 @@ function searchByDate() {
     const isBeforeFrom = fromDate && rowDate < fromDate;
     const isAfterTo = toDate && rowDate > toDate;
 
-    // Hide rows outside the selected range
     if (isBeforeFrom || isAfterTo) {
       tr.classList.add(`hidden`);
     } else tr.classList.remove('hidden');
@@ -396,7 +389,7 @@ tabMalaskra.addEventListener(`click`, function () {
   window.location.href = `../search-malaskra/index.html`;
 });
 
-//SEARCH MALASKRA
+//SEARCH MALASKRA//
 buttonSearchMalaskra.addEventListener(`click`, searchByMal);
 
 inputSearchMalaskra.addEventListener('keypress', function (event) {
@@ -406,13 +399,13 @@ inputSearchMalaskra.addEventListener('keypress', function (event) {
   }
 });
 
-//ADVANCED-SEARCH
+//ADVANCED-SEARCH//
 buttonAdvancedSearch.addEventListener(`click`, revealAdvancedSearch);
 
-//DATE SEARCHBAR
+//DATE SEARCHBAR//
 buttonSearchDate.addEventListener(`click`, searchByDate);
 
-//EFNISFLOKKAR
+//EFNISFLOKKAR//
 containerEfnisflokkar.addEventListener('click', event => {
   const allDivs = containerEfnisflokkar.querySelectorAll(`.yfirflokkur-div`);
   const div = event.target.closest('.yfirflokkur-div');

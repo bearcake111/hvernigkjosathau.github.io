@@ -1,11 +1,11 @@
 :root {
-  --bg: #f1eeff; /* page background (mid-dark) */
-  --surface: #cfd6de; /* cards / panels (lighter than bg) */
-  --muted: #a9aebe; /* subtle surfaces / hover */
-  --muted-2: #7d808b; /* borders / separators */
-  --ink: #171a1f; /* main text (light) */
-  --subtle: #e8eaf1; /* secondary text */
-  --accent-strong: #85898d; /* header / sticky bars */
+  --bg: #f1eeff;
+  --surface: #cfd6de;
+  --muted: #a9aebe;
+  --muted-2: #7d808b;
+  --ink: #171a1f;
+  --subtle: #e8eaf1;
+  --accent-strong: #85898d;
   --nav: #2e2f34;
   --nav-press: #525666;
 }

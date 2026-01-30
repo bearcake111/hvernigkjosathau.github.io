@@ -1,8 +1,5 @@
 'use strict';
 //CLEAN Allt á ensku
-//TODO Skoða GITHUB og github pages
-//Material UI eða MUI til að auðvelda UI vinnu
-//TODO Bæta inn gervigreind til að gera útdrátt úr málum
 
 // Elements
 const labelPagetitle = document.querySelector(`.page-title`);
@@ -10,14 +7,11 @@ const tabThingmenn = document.getElementById(`tab-thingmenn`);
 const tabMalaskra = document.getElementById(`tab-malaskra`);
 
 const sectionNameSelected = document.getElementById(`thingmadur-valinn`);
-// const labelName = document.querySelector('.nafn');
-// const searchbar = document.getElementById('searchbar');
 const inputNafn = document.getElementById('input-nafn');
 const imgProfile = document.querySelector(`.profile_picture`);
 const labelName = document.getElementById(`profile-name`);
 const labelParty = document.getElementById(`label-party`);
 const containerThingseta = document.getElementById(`container-thingseta`);
-// const thingmennDropdown = document.getElementById('thingmenn-dropdown');
 
 const buttonAdvancedSearch = document.querySelector(`.advanced-search-btn`);
 const containerSearchDate = document.getElementById(`date-searchbar`);
@@ -98,7 +92,6 @@ function populateList() {
 
     div.addEventListener('click', () => {
       searchbar.classList.toggle(`hidden`);
-      // labelName.classList.toggle(`hidden`);
       thingmennDropdown.style.display = 'none';
       sectionNameSelected.classList.remove(`hidden`);
       displayProfileInfo(thingmadur);
@@ -108,17 +101,6 @@ function populateList() {
     thingmennDropdown.appendChild(div);
   });
 }
-
-//Shows filtered options as user types //CLEAN Mögulega betra upp á performance að hafa hann bara í gangi á meðan verið er að skrifa í boxið //CLEAN Ætti kannski að færa þetta niður í event listeners
-// inputNafn.addEventListener(`input`, () => {
-//   const filter = inputNafn.value.toLowerCase();
-//   thingmennDropdown.style.display = `block`;
-
-//   Array.from(thingmennDropdown.children).forEach(item => {
-//     const text = item.textContent.toLowerCase();
-//     item.style.display = text.startsWith(filter) ? 'block' : 'none';
-//   });
-// });
 
 function revealAdvancedSearch() {
   containerSearchDate.classList.toggle(`hidden`);
@@ -149,8 +131,6 @@ function addCategories() {
   });
 }
 
-//TODO Only display mal if there is a vote for it
-//TODO If there is no mal with votes then display a message: "Engin atkvæði á skrá"
 function displayMal(malaskra) {
   clearDateSearch();
   containerMal.innerHTML = ``;
@@ -158,13 +138,12 @@ function displayMal(malaskra) {
   const sortedMalaskra = sortMalaskra(tempMalaskra, malOrder);
 
   sortedMalaskra.forEach(function (mal, i) {
-    // const row = i % 2 === 0 ? `even` : `odd`;
     const name = mal.name;
     const date = mal.date;
     const time = mal.time;
     const nr = mal.nr;
     const atkvGrNr = mal.atkvGrNr;
-    const skjalPdf = mal.skjalPdf; //TODO Bæta við grunnskjali þegar á við s.s. fjárlögum
+    const skjalPdf = mal.skjalPdf;
     const result = mal.atkv.afgr;
 
     const html = `
@@ -181,7 +160,6 @@ function displayMal(malaskra) {
       </tr>
     `;
     containerMal.insertAdjacentHTML(`afterbegin`, html);
-    //Add votes
     const foundVote = mal.atkvListi.find(
       item => item.nafn === labelName.textContent,
     );
@@ -198,7 +176,6 @@ function displayMal(malaskra) {
   return sortedMalaskra;
 }
 
-//Filter by efnisflokkur
 function filterMalaskra(arrMalaskra) {
   if (currEfnisflokkur === `Öll mál`) {
     return arrMalaskra;
@@ -260,14 +237,12 @@ function foldMal() {
     const newest = items[0].row;
     const older = items.slice(1).map(x => x.row);
 
-    // Mark classes
     newest.classList.add('newest');
 
     older.forEach(r => {
       r.classList.add('older', 'hidden');
     });
 
-    // Insert fold arrow into newest row (if not already there)
     let arrow = newest.querySelector('.fold-arrow');
     if (!arrow) {
       arrow = document.createElement('div');
@@ -275,7 +250,6 @@ function foldMal() {
       newest.firstElementChild.prepend(arrow);
     }
 
-    // Add click event to newest row
     arrow.addEventListener('click', () => {
       older.forEach(r => r.classList.toggle('hidden'));
       arrow.classList.toggle('open');
@@ -337,7 +311,6 @@ function assignRows() {
   }
 }
 
-//TODO Flokka thingmenn eftir kjördæmum
 function searchByDate() {
   const fromDate = new Date(inputDateFirst.value);
   const toDate = new Date(inputDateSecond.value);
@@ -362,7 +335,6 @@ function searchByDate() {
     const isBeforeFrom = fromDate && rowDate < fromDate;
     const isAfterTo = toDate && rowDate > toDate;
 
-    // Hide rows outside the selected range
     if (isBeforeFrom || isAfterTo) {
       tr.classList.add(`hidden`);
     } else tr.classList.remove('hidden');
@@ -446,7 +418,6 @@ async function loadThingmenn() {
     const data = await res.json();
     arrThingmenn = data;
     currThingmadur = findThingmadur();
-    // populateList();
     displayProfileInfo(currThingmadur);
   } catch (err) {
     console.error(err);
@@ -476,7 +447,7 @@ initialize();
 
 //////////EVENT LISTENERS//////////
 
-//NAVIGATION
+//NAVIGATION//
 labelPagetitle.addEventListener(`click`, function () {
   window.location.href = `../index.html`;
 });
@@ -489,7 +460,7 @@ tabMalaskra.addEventListener(`click`, function () {
   window.location.href = `../search-malaskra/index.html`;
 });
 
-//SEARCH MALASKRA
+//SEARCH MALASKRA//
 buttonSearchMalaskra.addEventListener(`click`, searchByMal);
 
 inputSearchMalaskra.addEventListener('keypress', function (event) {
@@ -499,13 +470,13 @@ inputSearchMalaskra.addEventListener('keypress', function (event) {
   }
 });
 
-//ADVANCED-SEARCH
+//ADVANCED-SEARCH//
 buttonAdvancedSearch.addEventListener(`click`, revealAdvancedSearch);
 
-//DATE SEARCHBAR
+//DATE SEARCHBAR//
 buttonSearchDate.addEventListener(`click`, searchByDate);
 
-//EFNISFLOKKAR
+//EFNISFLOKKAR//
 containerEfnisflokkar.addEventListener('click', event => {
   const allDivs = containerEfnisflokkar.querySelectorAll(`.yfirflokkur-div`);
   const div = event.target.closest('.yfirflokkur-div');
@@ -522,7 +493,7 @@ containerEfnisflokkar.addEventListener('click', event => {
   }
 });
 
-//DAGSETNING
+//DAGSETNING//
 containerDagsetning.addEventListener('click', () => {
   malOrder = malOrder === `up` ? `down` : `up`;
   arrow.classList.toggle('arrow-rotated');

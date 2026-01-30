@@ -83,7 +83,7 @@ initialize();
 
 //EVENT LISTENERS//
 
-//NAVIGATION
+//NAVIGATION//
 
 tabThingmenn.addEventListener(`click`, function () {
   window.location.href = `./index.html`;
