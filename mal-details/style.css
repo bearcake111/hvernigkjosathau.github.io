@@ -92,6 +92,9 @@ nav > div {
   border-radius: 6px;
   background: var(--surface);
 }
+#vote-explenation-wrap {
+  margin: 3px;
+}
 table {
   width: 100%;
   min-width: 0;
