@@ -1,7 +1,6 @@
 'use strict';
 
 //ELEMENTS//
-const labelPagetitle = document.querySelector(`.page-title`);
 const tabThingmenn = document.getElementById(`tab-thingmenn`);
 const tabMalaskra = document.getElementById(`tab-malaskra`);
 
@@ -160,9 +159,6 @@ initialize();
 //EVENT LISTENERS//
 
 //NAVBAR//
-labelPagetitle.addEventListener(`click`, function () {
-  window.location.href = `../index.html`;
-});
 
 tabThingmenn.addEventListener(`click`, function () {
   window.location.href = `../index.html`;

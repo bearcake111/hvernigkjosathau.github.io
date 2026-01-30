@@ -2,7 +2,6 @@
 
 //Elements
 
-const labelPagetitle = document.querySelector(`.page-title`);
 const tabThingmenn = document.getElementById(`tab-thingmenn`);
 const tabMalaskra = document.getElementById(`tab-malaskra`);
 
@@ -96,5 +95,4 @@ tabMalaskra.addEventListener(`click`, function () {
 //SEARCHBAR//
 inputSearchName.addEventListener(`input`, element => {
   displayProfiles(filterThingmenn(arrThingmenn));
-  console.log(`click`);
 });

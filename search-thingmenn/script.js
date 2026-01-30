@@ -1,13 +1,10 @@
 'use strict';
-//CLEAN Allt á ensku
 
 // Elements
-const labelPagetitle = document.querySelector(`.page-title`);
 const tabThingmenn = document.getElementById(`tab-thingmenn`);
 const tabMalaskra = document.getElementById(`tab-malaskra`);
 
 const sectionNameSelected = document.getElementById(`thingmadur-valinn`);
-const inputNafn = document.getElementById('input-nafn');
 const imgProfile = document.querySelector(`.profile_picture`);
 const labelName = document.getElementById(`profile-name`);
 const labelParty = document.getElementById(`label-party`);
@@ -15,10 +12,8 @@ const containerThingseta = document.getElementById(`container-thingseta`);
 
 const buttonAdvancedSearch = document.querySelector(`.advanced-search-btn`);
 const containerSearchDate = document.getElementById(`date-searchbar`);
-const containerSearchMalaskra = document.getElementById(`malaskra-searchbar`);
 const inputDateFirst = document.getElementById(`input-date-first`);
 const inputDateSecond = document.getElementById(`input-date-second`);
-const divButtonDate = document.querySelector(`.date-button`);
 const buttonSearchDate = document.getElementById(`search-date-button`);
 const errorNoDate = document.getElementById(`error-no-date`);
 const errorWrongOrder = document.getElementById(`error-wrong-order`);
@@ -32,11 +27,6 @@ const containerDagsetning = document.getElementById(`dags-container`);
 const arrow = document.querySelector('.filter-arrow');
 
 const containerMal = document.querySelector(`.mal-container`);
-const voteYes = document.querySelector('.já');
-const voteNo = document.querySelector('.nei');
-const voteAbstain = document.querySelector('.greiðir-ekki-atkvæði');
-const voteAbscent = document.querySelector('.boðaði-fjarvist');
-const voteAway = document.querySelector('.fjarverandi');
 
 //Loose variables
 let arrThingmenn;
@@ -79,27 +69,6 @@ function displayProfileInfo(thingmadur) {
 function displayImg(thingmadur) {
   labelName.textContent = thingmadur.name;
   imgProfile.src = thingmadur.img;
-}
-
-function populateList() {
-  thingmennDropdown.innerHTML = ``;
-  arrThingmenn.forEach(function (thingmadur, i) {
-    const div = document.createElement('div');
-    const name = thingmadur.name;
-
-    div.classList.add('searchable-item');
-    div.textContent = name;
-
-    div.addEventListener('click', () => {
-      searchbar.classList.toggle(`hidden`);
-      thingmennDropdown.style.display = 'none';
-      sectionNameSelected.classList.remove(`hidden`);
-      displayProfileInfo(thingmadur);
-      displayMal(arrMalaskra);
-      moreInfoRedirect();
-    });
-    thingmennDropdown.appendChild(div);
-  });
 }
 
 function revealAdvancedSearch() {
@@ -199,10 +168,6 @@ function filterMalaskra(arrMalaskra) {
     }
     return false;
   });
-  console.log(
-    `Found ${count} matches out of a total of ${arrMalaskra.length} mal.`,
-  );
-
   return filteredMalaskra;
 }
 
@@ -258,7 +223,6 @@ function foldMal() {
   });
 }
 
-//CLEAN Probably can make a common function for both this and foldMal since it also sorts stuff
 function sortMalaskra(tempMalaskra, order = 'up') {
   const parseDT = (date, time = '00:00:00') =>
     new Date(date.split('.').reverse().join('-') + 'T' + time);
@@ -350,7 +314,6 @@ function clearDateSearch() {
 
 function searchByMal() {
   const input = normalizeString(inputSearchMalaskra.value);
-  //CLEAN Maybe use initialize instead of calling each funtion everywhere
   if (input === '') {
     displayMal(arrMalaskra);
     moreInfoRedirect();
@@ -448,9 +411,6 @@ initialize();
 //////////EVENT LISTENERS//////////
 
 //NAVIGATION//
-labelPagetitle.addEventListener(`click`, function () {
-  window.location.href = `../index.html`;
-});
 
 tabThingmenn.addEventListener(`click`, function () {
   window.location.href = `../index.html`;

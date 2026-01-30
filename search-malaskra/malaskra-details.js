@@ -1,7 +1,6 @@
 'use strict';
 
 //ELEMENTS//
-const labelPagetitle = document.querySelector(`.page-title`);
 const tabThingmenn = document.getElementById(`tab-thingmenn`);
 const tabMalaskra = document.getElementById(`tab-malaskra`);
 
@@ -19,25 +18,15 @@ const inputSearchMalaskra = document.getElementById(`search-malaskra-input`);
 const buttonSearchMalaskra = document.getElementById(`search-malaskra-button`);
 
 const containerEfnisflokkar = document.getElementById('efnisflokkar');
-
-const labelMal = document.getElementById(`mal-label`);
-const labelMalDate = document.getElementById(`mal-date`);
-const labelMalStatus = document.getElementById(`mal-status`);
-const linkMalDocuments = document.getElementById(`mal-documents`);
+const containerMal = document.querySelector(`.mal-container`);
 
 const labelDate = document.querySelector(`.category-date`);
 const labelName = document.querySelector(`.category-name`);
 const labelResult = document.querySelector(`.category-result`);
 
-const buttonThingmenn = document.getElementById(`thingmenn-button`);
-const containerMal = document.querySelector(`.mal-container`);
-
 //LOOSE VARIABLES//
-let arrThingmenn;
 let arrMalaskra;
 let arrEfnisflokkar;
-let currAtkvGrNr;
-let currMal;
 let currEfnisflokkur = `Öll mál`;
 let dateSorting = true;
 let nameSorting = false;
@@ -160,7 +149,6 @@ function foldMal() {
 }
 
 function assignRows() {
-  console.log(`assigning rows`);
   const rows = containerMal.children;
   let count = 0;
 
@@ -207,10 +195,6 @@ function filterMalaskra(arrMalaskra) {
     }
     return false;
   });
-  console.log(
-    `Found ${count} matches out of a total of ${arrMalaskra.length} mal.`,
-  );
-
   return filteredMalaskra;
 }
 
@@ -377,9 +361,6 @@ initialize();
 //EVENT LISTENERS//
 
 //NAVBAR//
-labelPagetitle.addEventListener(`click`, function () {
-  window.location.href = `../index.html`;
-});
 
 tabThingmenn.addEventListener(`click`, function () {
   window.location.href = `../index.html`;
