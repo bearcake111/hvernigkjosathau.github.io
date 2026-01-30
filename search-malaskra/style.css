@@ -98,12 +98,6 @@ nav > div {
 .advanced-search-btn:hover {
   filter: brightness(1.03);
 }
-.advanced-search-btn .icon span {
-  display: block;
-  height: 2px;
-  width: 18px;
-  background: var(--ink);
-}
 
 /* ERRORS */
 .error-message {
@@ -237,12 +231,6 @@ thead th {
   font-weight: 500;
 }
 
-.result {
-  color: var(--ink);
-  font-size: 1rem;
-  font-weight: 400;
-}
-
 td {
   width: 4.4rem;
   text-align: center;
@@ -286,16 +274,6 @@ input[type='date']:focus {
 
 /* RESPONSIVE */
 @media (max-width: 900px) {
-  .profile-container {
-    width: 100%;
-  }
-  .image-wrapper img {
-    height: auto;
-  }
-  #vote-descriptions {
-    grid-template-columns: auto repeat(3, 1fr);
-    font-size: 1.1rem;
-  }
   .mal .mal-date {
     min-width: 7rem;
   }

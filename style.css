@@ -44,9 +44,7 @@ nav > div {
 }
 
 .site-button:hover {
-  color: var(--subtle);
   background-color: var(--nav-press);
-  background-image: none;
   cursor: pointer;
 }
 

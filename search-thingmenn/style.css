@@ -147,12 +147,6 @@ nav > div {
 .advanced-search-btn:hover {
   filter: brightness(1.03);
 }
-.advanced-search-btn .icon span {
-  display: block;
-  height: 2px;
-  width: 18px;
-  background: var(--ink);
-}
 
 /* ERRORS */
 .error-message {
@@ -300,7 +294,6 @@ thead th {
 }
 
 td {
-  width: auto;
   text-align: center;
   padding: 0;
 }
@@ -347,10 +340,6 @@ input[type='date']:focus {
   }
   .image-wrapper img {
     height: auto;
-  }
-  #vote-descriptions {
-    grid-template-columns: auto repeat(3, 1fr);
-    font-size: 1.1rem;
   }
   .mal .mal-date {
     min-width: 7rem;

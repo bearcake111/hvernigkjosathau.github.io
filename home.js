@@ -34,7 +34,7 @@ function displayProfiles(arrThingmenn) {
     container.addEventListener('click', () => {
       const name = container.querySelector(`.name-text`).textContent;
       const url = `./search-thingmenn/index.html?name=${encodeURIComponent(
-        name
+        name,
       )}`;
       window.location.href = url;
     });

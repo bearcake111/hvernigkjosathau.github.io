@@ -223,23 +223,6 @@ input[type='date']:focus {
   background: rgba(255, 255, 255, 0.01);
 }
 
-/* RESPONSIVE */
-@media (max-width: 900px) {
-  .profile-container {
-    width: 100%;
-  }
-  .image-wrapper img {
-    height: auto;
-  }
-  #vote-descriptions {
-    grid-template-columns: auto repeat(3, 1fr);
-    font-size: 1.1rem;
-  }
-  .thingmadur .mal-date {
-    min-width: 7rem;
-  }
-}
-
 /* SMALL HELPERS */
 
 .filter-arrow {
@@ -257,17 +240,6 @@ input[type='date']:focus {
 
 .filter-arrow.arrow-rotated {
   transform: rotate(-135deg);
-}
-
-.fold-arrow {
-  display: inline-block;
-  margin-right: 0.6rem;
-  cursor: pointer;
-  transform-origin: center;
-  transition: transform 0.15s;
-}
-.fold-arrow.open {
-  transform: rotate(90deg);
 }
 
 ::selection {
