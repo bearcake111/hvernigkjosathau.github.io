@@ -173,28 +173,16 @@ function formatDate(date) {
 }
 
 function filterMalaskra(arrMalaskra) {
-  if (currEfnisflokkur === `Öll mál`) {
-    return arrMalaskra;
-  }
-  let count = 0;
-  const nrEfnisflokkar = new Set();
+  if (currEfnisflokkur === `Öll mál`) return arrMalaskra;
 
-  for (const yf of arrEfnisflokkar) {
-    if (currEfnisflokkur && yf.yfirflokkur !== currEfnisflokkur) continue;
+  const setNr = new Set(
+    arrEfnisflokkar
+      .find(yf => yf.yfirflokkur === currEfnisflokkur)
+      .undirflokkar.flatMap(uf => uf.mal)
+      .map(mal => mal.nr),
+  );
 
-    for (const uf of yf.undirflokkar) {
-      for (const mal of uf.mal) {
-        nrEfnisflokkar.add(mal.nr);
-      }
-    }
-  }
-  const filteredMalaskra = arrMalaskra.filter(mal => {
-    if (nrEfnisflokkar.has(mal.nr)) {
-      count++;
-      return true;
-    }
-    return false;
-  });
+  const filteredMalaskra = arrMalaskra.filter(mal => setNr.has(mal.nr));
   return filteredMalaskra;
 }
 
