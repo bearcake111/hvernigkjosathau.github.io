@@ -160,7 +160,7 @@ function filterMalaskra(arrMalaskra) {
 }
 
 function foldMal() {
-  const rows = Array.from(document.querySelectorAll('.mal'));
+  const rows = [...document.querySelectorAll('.mal')];
   if (rows.length === 0) return;
 
   const groups = new Map();
@@ -174,32 +174,23 @@ function foldMal() {
     groups.get(nr).push({ row, date, time });
   });
 
-  groups.forEach(items => {
-    if (items.length === 1) return;
+  groups.forEach(malNr => {
+    if (malNr.length === 1) return;
 
-    items.sort((a, b) => {
-      const dateA = new Date(
-        a.date.split('.').reverse().join('-') + `T` + a.time,
-      );
-      const dateB = new Date(
-        b.date.split('.').reverse().join('-') + `T` + b.time,
-      );
-      return dateB - dateA;
+    malNr.sort((a, b) => {
+      return parseDT(a.date, a.time) - parseDT(b.date, b.time);
     });
 
-    const newest = items[0].row;
-    const older = items.slice(1).map(x => x.row);
-
+    const newest = malNr[0].row;
+    const older = malNr.slice(1).map(x => x.row);
     newest.classList.add('newest');
+    older.forEach(r => r.classList.add('older', 'hidden'));
 
-    older.forEach(r => {
-      r.classList.add('older', 'hidden');
-    });
-
+    //add arrow
     let arrow = newest.querySelector('.fold-arrow');
     if (!arrow) {
       arrow = document.createElement('div');
-      arrow.className = 'fold-arrow';
+      arrow.classList.add('fold-arrow');
       newest.firstElementChild.prepend(arrow);
     }
 
@@ -212,9 +203,6 @@ function foldMal() {
 }
 
 function sortMalaskra(tempMalaskra, order = 'up') {
-  const parseDT = (date, time = '00:00:00') =>
-    new Date(date.split('.').reverse().join('-') + 'T' + time);
-
   const sortedArr = tempMalaskra.map(mal => ({ ...mal }));
 
   const groups = new Map();
@@ -282,7 +270,7 @@ function searchByDate() {
   }
 
   document.querySelectorAll('tr[data-date]').forEach(tr => {
-    const rowDate = new Date(tr.dataset.date.split('.').reverse().join('-'));
+    const rowDate = parseDT(tr.dataset.date);
 
     const isBeforeFrom = fromDate && rowDate < fromDate;
     const isAfterTo = toDate && rowDate > toDate;
@@ -326,6 +314,12 @@ function normalizeString(str) {
     .replace(/ð/g, 'd')
     .replace(/þ/g, 'th')
     .replace(/æ/g, 'ae');
+}
+
+function parseDT(date, time = '00:00:00') {
+  return new Date(
+    date.split('.').reverse().join('-') + (time ? 'T' + time : ``),
+  );
 }
 
 function moreInfoRedirect() {

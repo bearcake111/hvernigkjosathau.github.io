@@ -66,16 +66,17 @@ section {
 
 /* SEARCHBAR */
 #searchbar {
-  padding: 1%;
+  margin: 1% 2% 0 2%;
+  background-color: transparent;
   display: flex;
   align-items: center;
   gap: 1%;
 }
 
 #input-nafn {
-  font-size: 1.7rem;
+  font-size: 1.5rem;
   margin: 2%;
-  padding: 0.6rem 0.8rem;
+  padding: 0.4rem 0.8rem;
   border: 2px solid var(--muted-2);
   border-radius: 6px;
   background: transparent;
