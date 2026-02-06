@@ -40,7 +40,7 @@ nav {
 nav > div {
   height: 10vh;
   padding: 3vw 2vw;
-  background-color: var(--nav);
+  background: var(--nav);
   border-right: 1px solid var(--border-muted);
 }
 
