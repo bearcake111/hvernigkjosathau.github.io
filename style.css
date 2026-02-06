@@ -1,13 +1,14 @@
 :root {
-  --bg: #f1eeff;
-  --surface: #cfd6de;
-  --muted: #a9aebe;
-  --muted-2: #7d808b;
-  --ink: #171a1f;
-  --subtle: #e8eaf1;
-  --accent-strong: #85898d;
-  --nav: #2e2f34;
-  --nav-press: #525666;
+  --bg: hsl(240, 55%, 95%);
+  --bg-muted: hsl(240, 5%, 70%);
+  --surface: hsl(240, 5%, 90%);
+  --border: hsl(240, 5%, 70%);
+  --border-muted: hsl(240, 5%, 50%);
+  --ink: hsl(0, 0%, 15%);
+  --ink-muted: hsl(0, 0%, 75%);
+  --ink-light: hsl(0, 0%, 95%);
+  --nav: linear-gradient(0deg, hsl(240, 8%, 18%), hsl(240, 8%, 23%));
+  --nav-press: linear-gradient(0deg, hsl(240, 8%, 25%), hsl(240, 8%, 30%));
 }
 
 * {
@@ -31,31 +32,26 @@ nav {
   display: flex;
   justify-content: left;
   align-items: center;
-  background-color: var(--nav);
-  color: var(--subtle);
-  border-bottom: 1px solid var(--muted);
+  background: var(--nav);
+  color: var(--ink-light);
+  border-bottom: 1px solid var(--border);
 }
 
 nav > div {
   height: 10vh;
   padding: 3vw 2vw;
   background-color: var(--nav);
-  border-right: 1px solid var(--muted);
+  border-right: 1px solid var(--border-muted);
 }
 
 .site-button:hover {
-  background-color: var(--nav-press);
+  background: var(--nav-press);
   cursor: pointer;
 }
 
-.page-title {
-  background-image: none;
-}
-
 .curr-tab {
-  color: var(--subtle);
-  background-color: var(--nav-press);
-  background-image: none;
+  color: var(--ink-light);
+  background: var(--nav-press);
 }
 
 section {
@@ -71,13 +67,14 @@ section {
   display: flex;
   align-items: center;
   gap: 1%;
+  color: var(--ink);
 }
 
 #input-nafn {
   font-size: 1.5rem;
   margin: 2%;
   padding: 0.4rem 0.8rem;
-  border: 2px solid var(--muted-2);
+  border: 2px solid var(--border-muted);
   border-radius: 6px;
   background: transparent;
   color: var(--ink);
@@ -100,12 +97,16 @@ section {
   flex: 1 1 auto;
   object-fit: cover;
   transition: 0.3s ease;
+  box-shadow:
+    0px 0px 2px 2px hsla(0, 0%, 0%, 0.07),
+    0px 0px 4px 4px hsla(0, 0%, 0%, 0.15);
 }
 
 .profile-container:hover {
   transform: scale(1.1);
   z-index: 10;
   cursor: pointer;
+  box-shadow: none;
 }
 
 .image-wrapper {
@@ -126,7 +127,7 @@ section {
   width: 100%;
   height: 20%;
   background: rgba(0, 0, 0, 0.4);
-  color: white;
+  color: var(--ink-light);
   display: flex;
   align-items: center;
   padding-left: 1rem;
