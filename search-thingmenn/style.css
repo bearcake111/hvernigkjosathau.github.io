@@ -1,7 +1,7 @@
 :root {
   --bg: hsl(240, 55%, 95%);
   --bg-muted: hsl(240, 5%, 70%);
-  --surface: hsl(240, 5%, 90%);
+  --surface: hsl(240, 5%, 85%);
   --border: hsl(240, 5%, 70%);
   --border-muted: hsl(240, 5%, 50%);
   --ink: hsl(0, 0%, 15%);
