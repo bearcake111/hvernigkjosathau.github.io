@@ -38,6 +38,7 @@ body {
 
 /* NAV */
 nav {
+  height: 10vh;
   display: flex;
   justify-content: left;
   align-items: center;
@@ -47,8 +48,10 @@ nav {
 }
 
 nav > div {
-  height: 10vh;
-  padding: 3vw 2vw;
+  display: flex;
+  height: 100%;
+  padding: 0 2rem;
+  align-items: center;
   background: var(--nav);
   border-right: 1px solid var(--border);
 }
