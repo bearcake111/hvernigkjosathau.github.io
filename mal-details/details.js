@@ -106,7 +106,7 @@ function sortByParty(desc = false) {
   rows.forEach(row => containerThingmenn.appendChild(row));
 }
 
-function flipArrow(e) {
+function flipArrow(e, sorting) {
   const arrow = e.currentTarget.querySelector(`.filter-arrow`);
 
   if (!arrow.classList.contains(`arrow-rotated`)) {
@@ -115,8 +115,11 @@ function flipArrow(e) {
       ar.classList.remove(`arrow-rotated`);
     });
   }
-
-  arrow.classList.toggle('arrow-rotated');
+  if (sorting) {
+    arrow.classList.add('arrow-rotated');
+  } else {
+    arrow.classList.remove('arrow-rotated');
+  }
 }
 
 //LOADING DATA//
@@ -168,19 +171,20 @@ tabMalaskra.addEventListener(`click`, function () {
   window.location.href = `../search-malaskra/index.html`;
 });
 
-//SORTING//
+//SORT BY NAME//
 labelName.addEventListener(`click`, function (e) {
   nameSorting = !nameSorting;
   partySorting = true;
-  flipArrow(e);
+  flipArrow(e, nameSorting);
   sortByName(nameSorting);
   assignRows();
 });
 
+//SORT BY PARTY//
 labelParty.addEventListener(`click`, function (e) {
   partySorting = !partySorting;
   nameSorting = true;
-  flipArrow(e);
+  flipArrow(e, partySorting);
   sortByParty(partySorting);
   assignRows();
 });

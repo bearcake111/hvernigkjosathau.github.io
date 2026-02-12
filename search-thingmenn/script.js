@@ -33,7 +33,7 @@ let arrThingmenn;
 let arrMalaskra;
 let arrEfnisflokkar;
 let currEfnisflokkur = `Öll mál`;
-let malOrder = `up`;
+let malOrder = false;
 let currThingmadur;
 
 // Functions
@@ -178,7 +178,7 @@ function foldMal() {
     if (malNr.length === 1) return;
 
     malNr.sort((a, b) => {
-      return parseDT(a.date, a.time) - parseDT(b.date, b.time);
+      return parseDT(b.date, b.time) - parseDT(a.date, a.time);
     });
 
     const newest = malNr[0].row;
@@ -194,15 +194,15 @@ function foldMal() {
       newest.firstElementChild.prepend(arrow);
     }
 
-    arrow.addEventListener('click', () => {
+    arrow.onclick = () => {
       older.forEach(r => r.classList.toggle('hidden'));
       arrow.classList.toggle('open');
       assignRows();
-    });
+    };
   });
 }
 
-function sortMalaskra(tempMalaskra, order = 'up') {
+function sortMalaskra(tempMalaskra, desc = false) {
   const sortedArr = tempMalaskra.map(mal => ({ ...mal }));
 
   const groups = new Map();
@@ -215,7 +215,7 @@ function sortMalaskra(tempMalaskra, order = 'up') {
     group.sort((a, b) => {
       const A = parseDT(a.date, a.time);
       const B = parseDT(b.date, b.time);
-      return order === 'up' ? A - B : B - A;
+      return (A - B) * (desc ? -1 : 1);
     });
   }
 
@@ -231,7 +231,7 @@ function sortMalaskra(tempMalaskra, order = 'up') {
       groupB[groupB.length - 1].time,
     );
 
-    return order === 'up' ? newestA - newestB : newestB - newestA;
+    return (newestA - newestB) * (desc ? -1 : 1);
   });
 
   return groupArr.flat();
@@ -336,6 +336,22 @@ function moreInfoRedirect() {
   });
 }
 
+function flipArrow(e, sorting) {
+  const arrow = e.currentTarget.querySelector(`.filter-arrow`);
+
+  if (!arrow.classList.contains(`arrow-rotated`)) {
+    const allArrows = document.querySelectorAll(`.filter-arrow`);
+    allArrows.forEach(ar => {
+      ar.classList.remove(`arrow-rotated`);
+    });
+  }
+  if (sorting) {
+    arrow.classList.add('arrow-rotated');
+  } else {
+    arrow.classList.remove('arrow-rotated');
+  }
+}
+
 //////////LOADING DATA//////////
 
 window.addEventListener('DOMContentLoaded', () => {
@@ -436,9 +452,9 @@ containerEfnisflokkar.addEventListener('click', event => {
 });
 
 //DAGSETNING//
-containerDagsetning.addEventListener('click', () => {
-  malOrder = malOrder === `up` ? `down` : `up`;
-  arrow.classList.toggle('arrow-rotated');
+containerDagsetning.addEventListener('click', function (e) {
+  malOrder = !malOrder;
+  flipArrow(e, malOrder);
   displayMal(arrMalaskra);
   moreInfoRedirect();
 });

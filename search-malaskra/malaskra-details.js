@@ -28,8 +28,8 @@ const labelResult = document.querySelector(`.category-result`);
 let arrMalaskra;
 let arrEfnisflokkar;
 let currEfnisflokkur = `Öll mál`;
-let dateSorting = true;
-let nameSorting = false;
+let dateSorting = false;
+let nameSorting = true;
 let resultSorting = true;
 
 //FUNCTIONS//
@@ -66,12 +66,12 @@ function addCategories() {
 function displayMal(malaskra) {
   clearDateSearch();
   containerMal.innerHTML = ``;
-
   const tempMalaskra = filterMalaskra(malaskra);
+  const sortedMalaskra = sortByDate(tempMalaskra, dateSorting);
 
   let row = `even`;
 
-  tempMalaskra.forEach(mal => {
+  sortedMalaskra.forEach(mal => {
     const link = `../mal-details/index.html?atkvGrNr=${encodeURIComponent(
       mal.atkvGrNr,
     )}`;
@@ -91,47 +91,39 @@ function displayMal(malaskra) {
 }
 
 function foldMal() {
-  const rows = Array.from(containerMal.querySelectorAll('.mal'));
+  const rows = [...document.querySelectorAll('.mal')];
   if (rows.length === 0) return;
 
   const groups = new Map();
 
   rows.forEach(row => {
     const nr = row.dataset.nr;
+    const date = row.dataset.date;
+    const time = row.dataset.time;
+
     if (!groups.has(nr)) groups.set(nr, []);
-    groups.get(nr).push(row);
+    groups.get(nr).push({ row, date, time });
   });
 
-  const fragment = document.createDocumentFragment();
-
-  groups.forEach(groupRows => {
-    if (groupRows.length === 1) {
-      fragment.appendChild(groupRows[0]);
+  groups.forEach(malNr => {
+    if (malNr.length === 1) {
       return;
     }
 
-    groupRows.sort((a, b) => {
-      const dA = new Date(
-        a.dataset.date.split('.').reverse().join('-') + 'T' + a.dataset.time,
-      );
-      const dB = new Date(
-        b.dataset.date.split('.').reverse().join('-') + 'T' + b.dataset.time,
-      );
-      return dB - dA;
+    malNr.sort((a, b) => {
+      return parseDT(b.date, b.time) - parseDT(a.date, a.time);
     });
 
-    const [newest, ...older] = groupRows;
-
+    const newest = malNr[0].row;
+    const older = malNr.slice(1).map(x => x.row);
     newest.classList.add('newest');
+    older.forEach(r => r.classList.add('older', 'hidden'));
 
-    older.forEach(r => {
-      r.classList.add('older', 'hidden');
-    });
-
+    //add arrow
     let arrow = newest.querySelector('.fold-arrow');
     if (!arrow) {
       arrow = document.createElement('div');
-      arrow.className = 'fold-arrow';
+      arrow.classList.add('fold-arrow');
       newest.firstElementChild.prepend(arrow);
     }
 
@@ -140,12 +132,7 @@ function foldMal() {
       arrow.classList.toggle('open');
       assignRows();
     };
-
-    fragment.appendChild(newest);
-    older.forEach(r => fragment.appendChild(r));
   });
-
-  containerMal.appendChild(fragment);
 }
 
 function assignRows() {
@@ -167,9 +154,10 @@ function clearDateSearch() {
   inputDateSecond.value = ``;
 }
 
-function formatDate(date) {
-  const newDate = new Date(date.split('.').reverse().join('-')).getTime();
-  return newDate;
+function parseDT(date, time = '00:00:00') {
+  return new Date(
+    date.split('.').reverse().join('-') + (time ? 'T' + time : ``),
+  );
 }
 
 function filterMalaskra(arrMalaskra) {
@@ -221,7 +209,7 @@ function searchByDate() {
   }
 
   document.querySelectorAll('tr[data-date]').forEach(tr => {
-    const rowDate = new Date(tr.dataset.date.split('.').reverse().join('-'));
+    const rowDate = parseDT(tr.dataset.date);
 
     const isBeforeFrom = fromDate && rowDate < fromDate;
     const isAfterTo = toDate && rowDate > toDate;
@@ -274,35 +262,43 @@ function sortByResult(desc = false) {
   assignRows();
 }
 
-function sortByDate(desc = false) {
-  const rows = Array.from(containerMal.querySelectorAll('tr'));
-  if (rows.length === 0) return;
+function sortByDate(tempMalaskra, desc = false) {
+  const sortedArr = tempMalaskra.map(mal => ({ ...mal }));
 
   const groups = new Map();
-  rows.forEach(row => {
-    const nr = row.dataset.nr;
-    if (!groups.has(nr)) groups.set(nr, []);
-    groups.get(nr).push(row);
+  for (const mal of sortedArr) {
+    if (!groups.has(mal.nr)) groups.set(mal.nr, []);
+    groups.get(mal.nr).push(mal);
+  }
+
+  for (const group of groups.values()) {
+    group.sort((a, b) => {
+      const A = parseDT(a.date, a.time);
+      const B = parseDT(b.date, b.time);
+      return (A - B) * (desc ? -1 : 1);
+    });
+  }
+
+  const groupArr = Array.from(groups.values());
+
+  groupArr.sort((groupA, groupB) => {
+    const newestA = parseDT(
+      groupA[groupA.length - 1].date,
+      groupA[groupA.length - 1].time,
+    );
+    const newestB = parseDT(
+      groupB[groupB.length - 1].date,
+      groupB[groupB.length - 1].time,
+    );
+
+    return (newestA - newestB) * (desc ? -1 : 1);
   });
 
-  const sortedGroups = Array.from(groups.values()).sort((groupA, groupB) => {
-    const newestA = groupA[0];
-    const newestB = groupB[0];
-    const dateA = formatDate(newestA.dataset.date);
-    const dateB = formatDate(newestB.dataset.date);
-    return (dateA - dateB) * (desc ? -1 : 1);
-  });
-
-  const fragment = document.createDocumentFragment();
-  sortedGroups.forEach(group => {
-    group.forEach(row => fragment.appendChild(row));
-  });
-  containerMal.appendChild(fragment);
-
-  assignRows();
+  return groupArr.flat();
 }
 
-function flipArrow(e) {
+//TODO copy fixed arrow logic into other pages
+function flipArrow(e, sorting) {
   const arrow = e.currentTarget.querySelector(`.filter-arrow`);
 
   if (!arrow.classList.contains(`arrow-rotated`)) {
@@ -311,8 +307,11 @@ function flipArrow(e) {
       ar.classList.remove(`arrow-rotated`);
     });
   }
-
-  arrow.classList.toggle('arrow-rotated');
+  if (sorting) {
+    arrow.classList.add('arrow-rotated');
+  } else {
+    arrow.classList.remove('arrow-rotated');
+  }
 }
 
 //LOADING DATA//
@@ -395,8 +394,8 @@ labelDate.addEventListener(`click`, function (e) {
   dateSorting = !dateSorting;
   resultSorting = true;
   nameSorting = true;
-  flipArrow(e);
-  sortByDate(dateSorting);
+  flipArrow(e, dateSorting);
+  displayMal(arrMalaskra);
   assignRows();
 });
 
@@ -405,7 +404,7 @@ labelName.addEventListener(`click`, function (e) {
   nameSorting = !nameSorting;
   resultSorting = true;
   dateSorting = true;
-  flipArrow(e);
+  flipArrow(e, nameSorting);
   sortByName(nameSorting);
   assignRows();
 });
@@ -415,7 +414,7 @@ labelResult.addEventListener(`click`, function (e) {
   resultSorting = !resultSorting;
   nameSorting = true;
   dateSorting = true;
-  flipArrow(e);
+  flipArrow(e, resultSorting);
   sortByResult(resultSorting);
   assignRows();
 });
