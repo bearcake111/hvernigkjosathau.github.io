@@ -109,26 +109,6 @@
     "flokkur": "Sjálfstæðisflokkur"
   },
   {
-    "name": "Brynjar Níelsson",
-    "id": "1160",
-    "img": "https://www.althingi.is/myndir/thingmenn-cache/1160/1160-220.jpg",
-    "thingsetaNr": [
-      "142",
-      "143",
-      "144",
-      "145",
-      "146",
-      "147",
-      "148",
-      "149",
-      "150",
-      "151",
-      "153",
-      "157"
-    ],
-    "flokkur": "Sjálfstæðisflokkur"
-  },
-  {
     "name": "Dagbjört Hákonardóttir",
     "id": "1439",
     "img": "https://www.althingi.is/myndir/thingmenn-cache/1439/1439-220.jpg",
@@ -175,26 +155,6 @@
       "157"
     ],
     "flokkur": "Viðreisn"
-  },
-  {
-    "name": "Eiríkur S. Svavarsson",
-    "id": "1558",
-    "img": "https://www.althingi.is/myndir/thingmenn-cache/1558/1558-220.jpg",
-    "thingsetaNr": [
-      "157"
-    ],
-    "flokkur": "Miðflokkurinn"
-  },
-  {
-    "name": "Elín Íris Fanndal",
-    "id": "1505",
-    "img": "https://www.althingi.is/myndir/thingmenn-cache/1505/1505-220.jpg",
-    "thingsetaNr": [
-      "154",
-      "156",
-      "157"
-    ],
-    "flokkur": "Flokkur fólksins"
   },
   {
     "name": "Eydís Ásbjörnsdóttir",
@@ -359,16 +319,6 @@
     "flokkur": "Viðreisn"
   },
   {
-    "name": "Hákon Hermannsson",
-    "id": "1503",
-    "img": "https://www.althingi.is/myndir/thingmenn-cache/1503/1503-220.jpg",
-    "thingsetaNr": [
-      "154",
-      "157"
-    ],
-    "flokkur": "Miðflokkurinn"
-  },
-  {
     "name": "Hildur Sverrisdóttir",
     "id": "1279",
     "img": "https://www.althingi.is/myndir/thingmenn-cache/1279/1279-220.jpg",
@@ -438,17 +388,6 @@
       "157"
     ],
     "flokkur": "Viðreisn"
-  },
-  {
-    "name": "Ingveldur Anna Sigurðardóttir",
-    "id": "1458",
-    "img": "https://www.althingi.is/myndir/thingmenn-cache/1458/1458-220.jpg",
-    "thingsetaNr": [
-      "153",
-      "156",
-      "157"
-    ],
-    "flokkur": "Sjálfstæðisflokkur"
   },
   {
     "name": "Jens Garðar Helgason",
@@ -554,17 +493,15 @@
     "flokkur": "Miðflokkurinn"
   },
   {
-    "name": "Katrín Sif Árnadóttir",
-    "id": "1431",
-    "img": "https://www.althingi.is/myndir/thingmenn-cache/1431/1431-220.jpg",
+    "name": "Karólína Helga Símonardóttir",
+    "id": "1310",
+    "img": "https://www.althingi.is/myndir/thingmenn-cache/1310/1310-220.jpg",
     "thingsetaNr": [
-      "152",
-      "153",
-      "154",
+      "146",
       "156",
       "157"
     ],
-    "flokkur": "Flokkur fólksins"
+    "flokkur": "Viðreisn"
   },
   {
     "name": "Kolbrún Áslaugar Baldursdóttir",
@@ -756,16 +693,6 @@
     "flokkur": "Sjálfstæðisflokkur"
   },
   {
-    "name": "Rúnar Sigurjónsson",
-    "id": "1551",
-    "img": "https://www.althingi.is/myndir/thingmenn-cache/1551/1551-220.jpg",
-    "thingsetaNr": [
-      "156",
-      "157"
-    ],
-    "flokkur": "Flokkur fólksins"
-  },
-  {
     "name": "Sandra Sigurðardóttir",
     "id": "1535",
     "img": "https://www.althingi.is/myndir/thingmenn-cache/1535/1535-220.jpg",
@@ -943,6 +870,15 @@
     "flokkur": "Miðflokkurinn"
   },
   {
+    "name": "Stefán Þór Eysteinsson",
+    "id": "1574",
+    "img": "https://www.althingi.is/myndir/thingmenn-cache/1574/1574-220.jpg",
+    "thingsetaNr": [
+      "157"
+    ],
+    "flokkur": "Samfylkingin"
+  },
+  {
     "name": "Stefán Vagn Stefánsson",
     "id": "1349",
     "img": "https://www.althingi.is/myndir/thingmenn-cache/1349/1349-220.jpg",
@@ -957,6 +893,16 @@
       "157"
     ],
     "flokkur": "Framsóknarflokkur"
+  },
+  {
+    "name": "Valdimar Breiðfjörð Birgisson",
+    "id": "1537",
+    "img": "https://www.althingi.is/myndir/thingmenn-cache/1537/1537-220.jpg",
+    "thingsetaNr": [
+      "156",
+      "157"
+    ],
+    "flokkur": "Viðreisn"
   },
   {
     "name": "Vilhjálmur Árnason",
