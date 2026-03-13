@@ -7,6 +7,10 @@
         "id": 1,
         "mal": [
           {
+            "heiti": "bílastæðagjöld á ferðamannastöðum",
+            "nr": "442"
+          },
+          {
             "heiti": "endurnýjun vegarins yfir Kjöl með einkaframkvæmd",
             "nr": "27"
           },
@@ -25,6 +29,10 @@
           {
             "heiti": "veitingastaðir, gististaðir og skemmtanahald",
             "nr": "114"
+          },
+          {
+            "heiti": "vinsælir áfangastaðir ferðamanna í eigu ríkisins",
+            "nr": "408"
           }
         ]
       },
@@ -35,6 +43,14 @@
           {
             "heiti": "efnahagsleg áhrif viðskiptakerfis ESB með losunarheimildir á Íslandi",
             "nr": "376"
+          },
+          {
+            "heiti": "fæðuöryggi",
+            "nr": "484"
+          },
+          {
+            "heiti": "skýrslur um matvælabirgðir og mælaborð um fæðuöryggi",
+            "nr": "452"
           },
           {
             "heiti": "svæðisbundin flutningsjöfnun á árinu 2025",
@@ -127,6 +143,10 @@
             "nr": "383"
           },
           {
+            "heiti": "fæðuöryggi",
+            "nr": "484"
+          },
+          {
             "heiti": "fæðuöryggi og innlend matvælaframleiðsla",
             "nr": "67"
           },
@@ -139,8 +159,20 @@
             "nr": "184"
           },
           {
+            "heiti": "skýrslur um matvælabirgðir og mælaborð um fæðuöryggi",
+            "nr": "452"
+          },
+          {
+            "heiti": "slátrun samkvæmt trúarsiðum",
+            "nr": "414"
+          },
+          {
             "heiti": "stuðningur við jarðakaup frumkvöðla á landsbyggðinni",
             "nr": "200"
+          },
+          {
+            "heiti": "vinna við breytingar á búvörulögum",
+            "nr": "478"
           }
         ]
       },
@@ -177,6 +209,10 @@
             "nr": "393"
           },
           {
+            "heiti": "fæðuöryggi",
+            "nr": "484"
+          },
+          {
             "heiti": "fæðuöryggi og innlend matvælaframleiðsla",
             "nr": "67"
           },
@@ -195,6 +231,10 @@
           {
             "heiti": "reglur um losun og eldsneytisnotkun skipa",
             "nr": "392"
+          },
+          {
+            "heiti": "skýrslur um matvælabirgðir og mælaborð um fæðuöryggi",
+            "nr": "452"
           },
           {
             "heiti": "varnir gegn mengun hafs og stranda",
@@ -231,8 +271,16 @@
             "nr": "287"
           },
           {
+            "heiti": "áfengislög",
+            "nr": "479"
+          },
+          {
             "heiti": "dreifing starfa",
             "nr": "152"
+          },
+          {
+            "heiti": "erlent eignarhald í mikilvægum innviðum",
+            "nr": "435"
           },
           {
             "heiti": "Fjarskiptastofa og fjölmiðlar",
@@ -249,6 +297,10 @@
           {
             "heiti": "húsaleigulög",
             "nr": "108"
+          },
+          {
+            "heiti": "kostnaður við skimun eftir krabbameini í ristli og endaþarmi",
+            "nr": "423"
           },
           {
             "heiti": "lyfjalög og lækningatæki",
@@ -277,6 +329,10 @@
           {
             "heiti": "rannsókn á orsakaferli í aðdraganda sjálfsvíga og dauðsfalla vegna óhappaeitrana",
             "nr": "58"
+          },
+          {
+            "heiti": "Schengen-upplýsingakerfið á Íslandi",
+            "nr": "396"
           },
           {
             "heiti": "sjúkraskrár",
@@ -345,8 +401,16 @@
             "nr": "177"
           },
           {
+            "heiti": "áfengislög",
+            "nr": "479"
+          },
+          {
             "heiti": "ársreikningar",
             "nr": "35"
+          },
+          {
+            "heiti": "bílastæðagjöld á ferðamannastöðum",
+            "nr": "442"
           },
           {
             "heiti": "búvörulög",
@@ -365,12 +429,20 @@
             "nr": "76"
           },
           {
+            "heiti": "embættisbústaðir",
+            "nr": "485"
+          },
+          {
             "heiti": "endurskoðun á rekstrarumhverfi fjölmiðla",
             "nr": "9"
           },
           {
             "heiti": "endurskoðun tollameðferðar á matvælum, beiting öryggisákvæðis EES og tímabundin lækkun virðisaukaskatts af matvælum",
             "nr": "292"
+          },
+          {
+            "heiti": "erlent eignarhald í mikilvægum innviðum",
+            "nr": "435"
           },
           {
             "heiti": "Evrópska efnahagssvæðið",
@@ -397,6 +469,10 @@
             "nr": "49"
           },
           {
+            "heiti": "forkaupsréttur",
+            "nr": "402"
+          },
+          {
             "heiti": "framkvæmd opinberra innkaupa",
             "nr": "83"
           },
@@ -405,7 +481,11 @@
             "nr": "156"
           },
           {
-            "heiti": "fullgilding samnings um loftslagsbreytingar, viðskipti og sjálfbæra þróun",
+            "heiti": "fullgilding fríverslunarsamnings milli EFTA-ríkjanna og Mercosur",
+            "nr": "444"
+          },
+          {
+            "heiti": "fullgilding samningsins um loftslagsbreytingar, viðskipti og sjálfbærni",
             "nr": "219"
           },
           {
@@ -415,6 +495,10 @@
           {
             "heiti": "fæðuöryggi og innlend matvælaframleiðsla",
             "nr": "67"
+          },
+          {
+            "heiti": "fækkun endómetríósuaðgerða hjá Klíníkinni",
+            "nr": "446"
           },
           {
             "heiti": "húsaleigulög",
@@ -447,6 +531,14 @@
           {
             "heiti": "leigubifreiðaakstur",
             "nr": "84"
+          },
+          {
+            "heiti": "losunarheimildir",
+            "nr": "449"
+          },
+          {
+            "heiti": "lóðarleigusamningar",
+            "nr": "404"
           },
           {
             "heiti": "lyfjalög og lækningatæki",
@@ -529,6 +621,14 @@
             "nr": "148"
           },
           {
+            "heiti": "skýrslur um matvælabirgðir og mælaborð um fæðuöryggi",
+            "nr": "452"
+          },
+          {
+            "heiti": "slátrun samkvæmt trúarsiðum",
+            "nr": "414"
+          },
+          {
             "heiti": "staðfesting ákvarðana sameiginlegu EES-nefndarinnar um breytingu á IX. viðauka við EES-samninginn",
             "nr": "218"
           },
@@ -551,6 +651,10 @@
           {
             "heiti": "stjórnvaldssektir",
             "nr": "359"
+          },
+          {
+            "heiti": "stofnun nýs innviðafélags",
+            "nr": "437"
           },
           {
             "heiti": "stuðningur við jarðakaup frumkvöðla á landsbyggðinni",
@@ -624,6 +728,10 @@
             "nr": "140"
           },
           {
+            "heiti": "Alþjóðaþingmannasambandið 2025",
+            "nr": "410"
+          },
+          {
             "heiti": "ársreikningar",
             "nr": "35"
           },
@@ -644,6 +752,10 @@
             "nr": "376"
           },
           {
+            "heiti": "embættisbústaðir",
+            "nr": "485"
+          },
+          {
             "heiti": "erlendir ríkisborgarar",
             "nr": "98"
           },
@@ -656,8 +768,16 @@
             "nr": "147"
           },
           {
+            "heiti": "Evrópuráðsþingið 2025",
+            "nr": "397"
+          },
+          {
             "heiti": "faggilding o.fl. og staðlar og Staðlaráð Íslands",
             "nr": "220"
+          },
+          {
+            "heiti": "ferðir til Brussel og Washington",
+            "nr": "424"
           },
           {
             "heiti": "Fjarskiptastofa og fjölmiðlar",
@@ -692,8 +812,24 @@
             "nr": "156"
           },
           {
-            "heiti": "fullgilding samnings um loftslagsbreytingar, viðskipti og sjálfbæra þróun",
+            "heiti": "Fríverslunarsamtök Evrópu og Evrópska efnahagssvæðið 2025",
+            "nr": "416"
+          },
+          {
+            "heiti": "fullgilding fríverslunarsamnings milli EFTA-ríkjanna og Mercosur",
+            "nr": "444"
+          },
+          {
+            "heiti": "fullgilding samningsins um loftslagsbreytingar, viðskipti og sjálfbærni",
             "nr": "219"
+          },
+          {
+            "heiti": "fyrirætlanir Evrópusambandsins varðandi Ísland, Noreg og Grænland",
+            "nr": "447"
+          },
+          {
+            "heiti": "hagsmunagæsla utanríkisþjónustunnar",
+            "nr": "481"
           },
           {
             "heiti": "heimskautaeldsneyti",
@@ -710,6 +846,10 @@
           {
             "heiti": "leit að olíu og gasi",
             "nr": "63"
+          },
+          {
+            "heiti": "losunarheimildir",
+            "nr": "449"
           },
           {
             "heiti": "lyfjalög og lækningatæki",
@@ -730,6 +870,14 @@
           {
             "heiti": "meðferð sakamála o.fl.",
             "nr": "103"
+          },
+          {
+            "heiti": "NATO-þingið 2025",
+            "nr": "405"
+          },
+          {
+            "heiti": "norðurskautsmál 2025",
+            "nr": "409"
           },
           {
             "heiti": "opinberir háskólar",
@@ -754,6 +902,14 @@
           {
             "heiti": "samningur Sameinuðu þjóðanna um réttindi fatlaðs fólks",
             "nr": "106"
+          },
+          {
+            "heiti": "Schengen-upplýsingakerfið á Íslandi",
+            "nr": "396"
+          },
+          {
+            "heiti": "sendiráð Íslands í Madríd",
+            "nr": "482"
           },
           {
             "heiti": "skipalög",
@@ -798,6 +954,10 @@
           {
             "heiti": "stjórnsýslulög",
             "nr": "143"
+          },
+          {
+            "heiti": "stuðningur við rétt grænlensku þjóðarinnar til sjálfsákvörðunar",
+            "nr": "401"
           },
           {
             "heiti": "umferðarlög",
@@ -846,6 +1006,10 @@
           {
             "heiti": "öryggis- og varnarmál",
             "nr": "151"
+          },
+          {
+            "heiti": "ÖSE-þingið 2025",
+            "nr": "407"
           }
         ]
       },
@@ -878,12 +1042,20 @@
             "nr": "193"
           },
           {
+            "heiti": "fyrirætlanir Evrópusambandsins varðandi Ísland, Noreg og Grænland",
+            "nr": "447"
+          },
+          {
             "heiti": "heimskautaeldsneyti",
             "nr": "391"
           },
           {
             "heiti": "norrænt samstarf",
             "nr": "339"
+          },
+          {
+            "heiti": "norrænt samstarf 2025",
+            "nr": "421"
           },
           {
             "heiti": "norrænt samstarf um kaup á drónum",
@@ -912,6 +1084,18 @@
           {
             "heiti": "stefna í varnar- og öryggismálum",
             "nr": "215"
+          },
+          {
+            "heiti": "stuðningur við rétt grænlensku þjóðarinnar til sjálfsákvörðunar",
+            "nr": "401"
+          },
+          {
+            "heiti": "störf Norrænu ráðherranefndarinnar 2025",
+            "nr": "417"
+          },
+          {
+            "heiti": "Vestnorræna ráðið 2025",
+            "nr": "406"
           }
         ]
       }
@@ -967,6 +1151,10 @@
             "nr": "209"
           },
           {
+            "heiti": "afnám erfðafjárskatts",
+            "nr": "451"
+          },
+          {
             "heiti": "Afurðasjóður Grindavíkurbæjar",
             "nr": "235"
           },
@@ -1009,6 +1197,18 @@
           {
             "heiti": "bálför og bálstofa",
             "nr": "133"
+          },
+          {
+            "heiti": "biðlaun ráðherra",
+            "nr": "420"
+          },
+          {
+            "heiti": "bílastæðagjöld á ferðamannastöðum",
+            "nr": "442"
+          },
+          {
+            "heiti": "BRCA-arfberar",
+            "nr": "454"
           },
           {
             "heiti": "breyting á ýmsum lögum vegna einföldunar og samræmingar leyfisferla á sviði umhverfis- og orkumála",
@@ -1059,6 +1259,14 @@
             "nr": "240"
           },
           {
+            "heiti": "embættisbústaðir",
+            "nr": "485"
+          },
+          {
+            "heiti": "endurgreidd fjárhagsaðstoð til sveitarfélaga vegna erlendra ríkisborgara",
+            "nr": "429"
+          },
+          {
             "heiti": "endurgreiðslur vegna kvikmyndagerðar á Íslandi",
             "nr": "263"
           },
@@ -1101,6 +1309,10 @@
           {
             "heiti": "fjáraukalög IV 2025",
             "nr": "299"
+          },
+          {
+            "heiti": "fjárframlög og ívilnanir til íþrótta- og æskulýðsstarfs",
+            "nr": "453"
           },
           {
             "heiti": "fjárlög 2026",
@@ -1171,6 +1383,10 @@
             "nr": "49"
           },
           {
+            "heiti": "forkaupsréttur",
+            "nr": "402"
+          },
+          {
             "heiti": "framkvæmd ályktana Alþingis frá árinu 2024",
             "nr": "217"
           },
@@ -1215,8 +1431,16 @@
             "nr": "375"
           },
           {
+            "heiti": "frítekjumörk og tekjuviðmið",
+            "nr": "419"
+          },
+          {
             "heiti": "fæðingar- og foreldraorlof og sorgarleyfi",
             "nr": "286"
+          },
+          {
+            "heiti": "fækkun endómetríósuaðgerða hjá Klíníkinni",
+            "nr": "446"
           },
           {
             "heiti": "gjaldfrjálsar heilbrigðisskimanir",
@@ -1231,6 +1455,50 @@
             "nr": "310"
           },
           {
+            "heiti": "hagræðing í ríkisrekstri",
+            "nr": "456"
+          },
+          {
+            "heiti": "hagræðing í ríkisrekstri",
+            "nr": "457"
+          },
+          {
+            "heiti": "hagræðing í ríkisrekstri",
+            "nr": "458"
+          },
+          {
+            "heiti": "hagræðing í ríkisrekstri",
+            "nr": "459"
+          },
+          {
+            "heiti": "hagræðing í ríkisrekstri",
+            "nr": "460"
+          },
+          {
+            "heiti": "hagræðing í ríkisrekstri",
+            "nr": "461"
+          },
+          {
+            "heiti": "hagræðing í ríkisrekstri",
+            "nr": "462"
+          },
+          {
+            "heiti": "hagræðing í ríkisrekstri",
+            "nr": "463"
+          },
+          {
+            "heiti": "hagræðing í ríkisrekstri",
+            "nr": "464"
+          },
+          {
+            "heiti": "hagræðing í ríkisrekstri",
+            "nr": "465"
+          },
+          {
+            "heiti": "hagræðing í ríkisrekstri",
+            "nr": "466"
+          },
+          {
             "heiti": "hálkuvarnir og helmingamokstur",
             "nr": "271"
           },
@@ -1241,6 +1509,10 @@
           {
             "heiti": "helmingamokstur",
             "nr": "182"
+          },
+          {
+            "heiti": "helmingamokstur",
+            "nr": "430"
           },
           {
             "heiti": "hjólaleið milli höfuðborgarsvæðisins og Suðurnesja",
@@ -1293,6 +1565,10 @@
           {
             "heiti": "kostnaður við eftirlit með hvalveiðum",
             "nr": "214"
+          },
+          {
+            "heiti": "kostnaður við skimun eftir krabbameini í ristli og endaþarmi",
+            "nr": "423"
           },
           {
             "heiti": "kostnaður við starfslokasamninga",
@@ -1355,8 +1631,56 @@
             "nr": "63"
           },
           {
+            "heiti": "lóðarleigusamningar",
+            "nr": "404"
+          },
+          {
             "heiti": "lyfjalög og lækningatæki",
             "nr": "70"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "467"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "468"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "469"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "470"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "471"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "472"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "473"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "474"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "475"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "476"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "477"
           },
           {
             "heiti": "markaðssetningarlög",
@@ -1377,6 +1701,10 @@
           {
             "heiti": "menntun fanga",
             "nr": "206"
+          },
+          {
+            "heiti": "Miðstöð menntunar og skólaþjónustu o.fl.",
+            "nr": "443"
           },
           {
             "heiti": "myndlistarlög",
@@ -1435,6 +1763,10 @@
             "nr": "41"
           },
           {
+            "heiti": "sendiráð Íslands í Madríd",
+            "nr": "482"
+          },
+          {
             "heiti": "sérúrræði",
             "nr": "198"
           },
@@ -1471,6 +1803,10 @@
             "nr": "303"
           },
           {
+            "heiti": "skýrslur um matvælabirgðir og mælaborð um fæðuöryggi",
+            "nr": "452"
+          },
+          {
             "heiti": "slysatryggingar almannatrygginga",
             "nr": "174"
           },
@@ -1497,6 +1833,10 @@
           {
             "heiti": "stjórnvaldssektir",
             "nr": "359"
+          },
+          {
+            "heiti": "stofnun nýs innviðafélags",
+            "nr": "437"
           },
           {
             "heiti": "stuðningur til aðgerða í loftslagsmálum",
@@ -1545,6 +1885,10 @@
           {
             "heiti": "tölfræði innflytjenda",
             "nr": "116"
+          },
+          {
+            "heiti": "umferðaröryggisaðgerðir og fallvarnir",
+            "nr": "403"
           },
           {
             "heiti": "uppbygging flugvalla til varna landsins",
@@ -1627,12 +1971,32 @@
             "nr": "179"
           },
           {
+            "heiti": "vegakerfið og ráðstöfun kílómetragjalds",
+            "nr": "483"
+          },
+          {
             "heiti": "veiðar í fiskveiðilandhelgi Íslands og stjórn fiskveiða",
             "nr": "153"
           },
           {
+            "heiti": "verðlagsuppfærslur",
+            "nr": "436"
+          },
+          {
             "heiti": "verslun með áfengi og tóbak o.fl.",
             "nr": "334"
+          },
+          {
+            "heiti": "Vetraríþróttamiðstöð Íslands og þjóðarleikvangur vetraríþrótta",
+            "nr": "441"
+          },
+          {
+            "heiti": "vinna við breytingar á búvörulögum",
+            "nr": "478"
+          },
+          {
+            "heiti": "vinsælir áfangastaðir ferðamanna í eigu ríkisins",
+            "nr": "408"
           },
           {
             "heiti": "þekkingarsetur til undirbúningsnáms fyrir börn af erlendum uppruna",
@@ -1701,8 +2065,20 @@
         "id": 8,
         "mal": [
           {
+            "heiti": "afnám erfðafjárskatts",
+            "nr": "451"
+          },
+          {
             "heiti": "aukin færni innflytjenda í íslensku",
             "nr": "181"
+          },
+          {
+            "heiti": "áfengislög",
+            "nr": "479"
+          },
+          {
+            "heiti": "bílastæðagjöld á ferðamannastöðum",
+            "nr": "442"
           },
           {
             "heiti": "breyting á ýmsum lögum vegna fjárlaga 2026",
@@ -1741,12 +2117,24 @@
             "nr": "363"
           },
           {
+            "heiti": "fjárframlög og ívilnanir til íþrótta- og æskulýðsstarfs",
+            "nr": "453"
+          },
+          {
             "heiti": "frádráttur frá tekjum erlendra sérfræðinga",
             "nr": "259"
           },
           {
+            "heiti": "frítekjumörk og tekjuviðmið",
+            "nr": "419"
+          },
+          {
             "heiti": "fríverslunarsamningur milli EFTA-ríkjanna og Úkraínu o.fl.",
             "nr": "156"
+          },
+          {
+            "heiti": "fullgilding fríverslunarsamnings milli EFTA-ríkjanna og Mercosur",
+            "nr": "444"
           },
           {
             "heiti": "húsaleigulög",
@@ -1809,6 +2197,10 @@
             "nr": "203"
           },
           {
+            "heiti": "skattrannsóknir",
+            "nr": "445"
+          },
+          {
             "heiti": "staðfesting ríkisreiknings 2024",
             "nr": "146"
           },
@@ -1841,6 +2233,10 @@
             "nr": "51"
           },
           {
+            "heiti": "tekjuskattur",
+            "nr": "433"
+          },
+          {
             "heiti": "tekjuskattur eftir tekjutíundum",
             "nr": "170"
           },
@@ -1861,6 +2257,10 @@
             "nr": "79"
           },
           {
+            "heiti": "vegakerfið og ráðstöfun kílómetragjalds",
+            "nr": "483"
+          },
+          {
             "heiti": "veitingastaðir, gististaðir og skemmtanahald",
             "nr": "114"
           },
@@ -1869,12 +2269,20 @@
             "nr": "334"
           },
           {
+            "heiti": "vinsælir áfangastaðir ferðamanna í eigu ríkisins",
+            "nr": "408"
+          },
+          {
             "heiti": "virðisaukaskattur",
             "nr": "25"
           },
           {
             "heiti": "virðisaukaskattur",
             "nr": "262"
+          },
+          {
+            "heiti": "virðisaukaskattur",
+            "nr": "432"
           },
           {
             "heiti": "vörugjald af ökutækjum",
@@ -1952,6 +2360,10 @@
             "nr": "67"
           },
           {
+            "heiti": "slátrun samkvæmt trúarsiðum",
+            "nr": "414"
+          },
+          {
             "heiti": "útvistun heilbrigðiseftirlits",
             "nr": "42"
           }
@@ -1998,6 +2410,10 @@
             "nr": "187"
           },
           {
+            "heiti": "BRCA-arfberar",
+            "nr": "454"
+          },
+          {
             "heiti": "brottfall laga um Heyrnar- og talmeinastöð",
             "nr": "238"
           },
@@ -2034,12 +2450,20 @@
             "nr": "380"
           },
           {
+            "heiti": "fjölskyldusameiningar",
+            "nr": "448"
+          },
+          {
             "heiti": "framkvæmd öryggisráðstafana samkvæmt dómsúrlausn",
             "nr": "305"
           },
           {
             "heiti": "fyrsta og annars stigs þjónusta innan heilbrigðiskerfisins",
             "nr": "172"
+          },
+          {
+            "heiti": "fækkun endómetríósuaðgerða hjá Klíníkinni",
+            "nr": "446"
           },
           {
             "heiti": "föst starfsstöð þyrlu Landhelgisgæslunnar á Akureyri",
@@ -2066,12 +2490,28 @@
             "nr": "295"
           },
           {
+            "heiti": "hlutfall erlends vinnuafls á heilbrigðisstofnunum á Íslandi og stuðningur við íslenskunám þess",
+            "nr": "450"
+          },
+          {
+            "heiti": "höfnun á rannsókn á afdrifum barna sem hafa verið vistuð á meðferðarheimilum",
+            "nr": "413"
+          },
+          {
             "heiti": "kostnaður vegna kulnunar",
             "nr": "118"
           },
           {
+            "heiti": "kostnaður við skimun eftir krabbameini í ristli og endaþarmi",
+            "nr": "423"
+          },
+          {
             "heiti": "lokun austur/vesturbrautar Reykjavíkurflugvallar",
             "nr": "139"
+          },
+          {
+            "heiti": "lyfjakostnaður sjúklinga og Sjúkratrygginga Íslands",
+            "nr": "422"
           },
           {
             "heiti": "lyfjalög og lækningatæki",
@@ -2154,12 +2594,20 @@
             "nr": "36"
           },
           {
+            "heiti": "uppbygging hjúkrunarrýma",
+            "nr": "411"
+          },
+          {
             "heiti": "úrbætur í málefnum barna og ungmenna með tal- og málþroskaröskun",
             "nr": "372"
           },
           {
             "heiti": "úrbætur í málefnum barna og ungmenna með tal- og málþroskaröskun",
             "nr": "386"
+          },
+          {
+            "heiti": "valkvæðar aðgerðir",
+            "nr": "455"
           },
           {
             "heiti": "viðhlítandi þjónusta vegna vímuefnavanda",
@@ -2319,8 +2767,20 @@
             "nr": "313"
           },
           {
+            "heiti": "atvinnuleyfi á grundvelli sérþekkingar",
+            "nr": "412"
+          },
+          {
+            "heiti": "atvinnuleysisbætur til erlendra ríkisborgara",
+            "nr": "428"
+          },
+          {
             "heiti": "ábyrgð á líki",
             "nr": "185"
+          },
+          {
+            "heiti": "áfengislög",
+            "nr": "479"
           },
           {
             "heiti": "áhafnir skipa",
@@ -2329,6 +2789,10 @@
           {
             "heiti": "bakgrunnur umsækjenda um alþjóðlega vernd",
             "nr": "121"
+          },
+          {
+            "heiti": "barnalífeyrir til erlendra ríkisborgara",
+            "nr": "427"
           },
           {
             "heiti": "brottfararstöð",
@@ -2355,6 +2819,18 @@
             "nr": "135"
           },
           {
+            "heiti": "einstaklingar sem dvelja ólöglega hér á landi",
+            "nr": "418"
+          },
+          {
+            "heiti": "ellilífeyrir til erlendra ríkisborgara",
+            "nr": "426"
+          },
+          {
+            "heiti": "endurgreidd fjárhagsaðstoð til sveitarfélaga vegna erlendra ríkisborgara",
+            "nr": "429"
+          },
+          {
             "heiti": "endurnýjun vegarins yfir Kjöl með einkaframkvæmd",
             "nr": "27"
           },
@@ -2375,6 +2851,10 @@
             "nr": "98"
           },
           {
+            "heiti": "erlent eignarhald í mikilvægum innviðum",
+            "nr": "435"
+          },
+          {
             "heiti": "fíkniefnanotkun í fangelsum",
             "nr": "288"
           },
@@ -2389,6 +2869,14 @@
           {
             "heiti": "fjöldi lögreglumanna",
             "nr": "266"
+          },
+          {
+            "heiti": "fjölskyldusameiningar",
+            "nr": "399"
+          },
+          {
+            "heiti": "fjölskyldusameiningar",
+            "nr": "448"
           },
           {
             "heiti": "forgangur við veitingu dvalarleyfa",
@@ -2413,6 +2901,10 @@
           {
             "heiti": "fyrning og heimtur krafna vegna námslána eftir gjaldþrot",
             "nr": "335"
+          },
+          {
+            "heiti": "fæðuöryggi",
+            "nr": "484"
           },
           {
             "heiti": "föst starfsstöð þyrlu Landhelgisgæslunnar á Akureyri",
@@ -2487,8 +2979,16 @@
             "nr": "37"
           },
           {
+            "heiti": "Schengen-upplýsingakerfið á Íslandi",
+            "nr": "396"
+          },
+          {
             "heiti": "skattar, gjöld o.fl. (tollar, leigutekjur o.fl.)",
             "nr": "257"
+          },
+          {
+            "heiti": "skattrannsóknir",
+            "nr": "445"
           },
           {
             "heiti": "skipti á dánarbúum o.fl. og erfðalög",
@@ -2515,6 +3015,10 @@
             "nr": "359"
           },
           {
+            "heiti": "stæðiskort",
+            "nr": "434"
+          },
+          {
             "heiti": "Sundabraut",
             "nr": "26"
           },
@@ -2537,6 +3041,10 @@
           {
             "heiti": "umferðarlög",
             "nr": "64"
+          },
+          {
+            "heiti": "umferðaröryggisaðgerðir og fallvarnir",
+            "nr": "403"
           },
           {
             "heiti": "uppbygging flugvalla til varna landsins",
@@ -2579,6 +3087,10 @@
             "nr": "12"
           },
           {
+            "heiti": "örorkubætur til erlendra ríkisborgara",
+            "nr": "425"
+          },
+          {
             "heiti": "öryggis- og varnarmál",
             "nr": "151"
           },
@@ -2595,6 +3107,10 @@
           {
             "heiti": "aðgangur að sjúkraskrám",
             "nr": "97"
+          },
+          {
+            "heiti": "afnám erfðafjárskatts",
+            "nr": "451"
           },
           {
             "heiti": "Almannaheillasjóður",
@@ -2653,6 +3169,10 @@
             "nr": "17"
           },
           {
+            "heiti": "Miðstöð menntunar og skólaþjónustu o.fl.",
+            "nr": "443"
+          },
+          {
             "heiti": "mælaborð í málefnum innflytjenda",
             "nr": "20"
           },
@@ -2697,6 +3217,10 @@
             "nr": "34"
           },
           {
+            "heiti": "veiting ríkisborgararéttar",
+            "nr": "398"
+          },
+          {
             "heiti": "vernd barna og ungmenna á stafrænum vettvangi",
             "nr": "261"
           }
@@ -2718,6 +3242,18 @@
           {
             "heiti": "bardagaíþróttir",
             "nr": "55"
+          },
+          {
+            "heiti": "fjárframlög og ívilnanir til íþrótta- og æskulýðsstarfs",
+            "nr": "453"
+          },
+          {
+            "heiti": "tekjuskattur",
+            "nr": "433"
+          },
+          {
+            "heiti": "Vetraríþróttamiðstöð Íslands og þjóðarleikvangur vetraríþrótta",
+            "nr": "441"
           }
         ]
       },
@@ -2732,6 +3268,10 @@
           {
             "heiti": "dreifing fréttaefnis hjá Ríkisútvarpinu",
             "nr": "321"
+          },
+          {
+            "heiti": "embættisbústaðir",
+            "nr": "485"
           },
           {
             "heiti": "endurgreiðslur vegna kvikmyndagerðar á Íslandi",
@@ -2760,6 +3300,10 @@
           {
             "heiti": "greiðslur fyrir afnot bóka og hljóðrita á bókasöfnum",
             "nr": "285"
+          },
+          {
+            "heiti": "hlutfall erlends vinnuafls á heilbrigðisstofnunum á Íslandi og stuðningur við íslenskunám þess",
+            "nr": "450"
           },
           {
             "heiti": "íslenskukunnátta leikskólastarfsmanna",
@@ -2811,6 +3355,10 @@
         "heiti": "Menntamál",
         "id": 20,
         "mal": [
+          {
+            "heiti": "afburðanemendur",
+            "nr": "440"
+          },
           {
             "heiti": "aukin færni innflytjenda í íslensku",
             "nr": "181"
@@ -2876,8 +3424,16 @@
             "nr": "205"
           },
           {
+            "heiti": "hlutfall erlends vinnuafls á heilbrigðisstofnunum á Íslandi og stuðningur við íslenskunám þess",
+            "nr": "450"
+          },
+          {
             "heiti": "húsaleiga framhaldsskóla",
             "nr": "208"
+          },
+          {
+            "heiti": "hæfniviðmið",
+            "nr": "438"
           },
           {
             "heiti": "innheimta og fyrning krafna vegna námslána eftir gjaldþrot",
@@ -2908,12 +3464,20 @@
             "nr": "206"
           },
           {
+            "heiti": "Miðstöð menntunar og skólaþjónustu o.fl.",
+            "nr": "443"
+          },
+          {
             "heiti": "mælaborð í málefnum innflytjenda",
             "nr": "20"
           },
           {
             "heiti": "nemendur af erlendum uppruna í leik- og grunnskólum",
             "nr": "199"
+          },
+          {
+            "heiti": "niðurstöður og þátttaka sveitarfélaga í lestrarskimunum, gögn um lestrarfærni og mat á árangri íhlutunar",
+            "nr": "395"
           },
           {
             "heiti": "opinber stuðningur við vísindi og nýsköpun",
@@ -2934,6 +3498,10 @@
           {
             "heiti": "rannsókn á jarðlögum og hafsbotni á fyrirhugaðri gangaleið milli lands og Vestmannaeyja",
             "nr": "75"
+          },
+          {
+            "heiti": "réttur námsmanna til atvinnuleysisbóta",
+            "nr": "480"
           },
           {
             "heiti": "sérstök ívilnun námsgreina",
@@ -3000,6 +3568,10 @@
             "nr": "25"
           },
           {
+            "heiti": "þekkingarmiðuð aðalnámskrá",
+            "nr": "439"
+          },
+          {
             "heiti": "þekkingarsetur til undirbúningsnáms fyrir börn af erlendum uppruna",
             "nr": "12"
           }
@@ -3027,12 +3599,28 @@
             "nr": "269"
           },
           {
+            "heiti": "atvinnuleysisbætur til erlendra ríkisborgara",
+            "nr": "428"
+          },
+          {
             "heiti": "augasteinsaðgerðir og samningar við einkarekna þjónustuaðila",
             "nr": "389"
           },
           {
             "heiti": "aukin færni innflytjenda í íslensku",
             "nr": "181"
+          },
+          {
+            "heiti": "barnalífeyrir til erlendra ríkisborgara",
+            "nr": "427"
+          },
+          {
+            "heiti": "barnalífeyrisgreiðslur",
+            "nr": "431"
+          },
+          {
+            "heiti": "BRCA-arfberar",
+            "nr": "454"
           },
           {
             "heiti": "brottfall laga um Heyrnar- og talmeinastöð",
@@ -3047,6 +3635,10 @@
             "nr": "370"
           },
           {
+            "heiti": "ellilífeyrir til erlendra ríkisborgara",
+            "nr": "426"
+          },
+          {
             "heiti": "ferðakostnaður sjúklinga",
             "nr": "167"
           },
@@ -3055,8 +3647,16 @@
             "nr": "299"
           },
           {
+            "heiti": "fjöldi örorkulífeyrisþega",
+            "nr": "415"
+          },
+          {
             "heiti": "fæðingar- og foreldraorlof og sorgarleyfi",
             "nr": "286"
+          },
+          {
+            "heiti": "fækkun endómetríósuaðgerða hjá Klíníkinni",
+            "nr": "446"
           },
           {
             "heiti": "greiðslur til foreldra langveikra eða alvarlega fatlaðra barna",
@@ -3075,8 +3675,16 @@
             "nr": "186"
           },
           {
+            "heiti": "lyfjakostnaður sjúklinga og Sjúkratrygginga Íslands",
+            "nr": "422"
+          },
+          {
             "heiti": "POTS-heilkennið og vökvagjöf",
             "nr": "161"
+          },
+          {
+            "heiti": "réttur námsmanna til atvinnuleysisbóta",
+            "nr": "480"
           },
           {
             "heiti": "sjúkratryggingar og ófrjósemisaðgerðir",
@@ -3125,6 +3733,10 @@
           {
             "heiti": "örorkubyrði lífeyrissjóða",
             "nr": "163"
+          },
+          {
+            "heiti": "örorkubætur til erlendra ríkisborgara",
+            "nr": "425"
           }
         ]
       },
@@ -3137,6 +3749,14 @@
             "nr": "235"
           },
           {
+            "heiti": "atvinnuleyfi á grundvelli sérþekkingar",
+            "nr": "412"
+          },
+          {
+            "heiti": "atvinnuleysisbætur til erlendra ríkisborgara",
+            "nr": "428"
+          },
+          {
             "heiti": "atvinnuleysistryggingar og vinnumarkaðsaðgerðir",
             "nr": "312"
           },
@@ -3147,6 +3767,10 @@
           {
             "heiti": "áhafnir skipa",
             "nr": "86"
+          },
+          {
+            "heiti": "biðlaun ráðherra",
+            "nr": "420"
           },
           {
             "heiti": "brottfall laga um Heyrnar- og talmeinastöð",
@@ -3183,6 +3807,10 @@
           {
             "heiti": "framvinda stefnumótandi byggðaáætlunar árin 2022--2036",
             "nr": "375"
+          },
+          {
+            "heiti": "hlutfall erlends vinnuafls á heilbrigðisstofnunum á Íslandi og stuðningur við íslenskunám þess",
+            "nr": "450"
           },
           {
             "heiti": "jöfn staða og jafn réttur kynjanna",
@@ -3257,12 +3885,60 @@
             "nr": "84"
           },
           {
+            "heiti": "mannauðsmál",
+            "nr": "467"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "468"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "469"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "470"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "471"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "472"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "473"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "474"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "475"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "476"
+          },
+          {
+            "heiti": "mannauðsmál",
+            "nr": "477"
+          },
+          {
             "heiti": "réttindi og skyldur starfsmanna ríkisins",
             "nr": "21"
           },
           {
             "heiti": "réttindi og skyldur starfsmanna ríkisins",
             "nr": "340"
+          },
+          {
+            "heiti": "réttur námsmanna til atvinnuleysisbóta",
+            "nr": "480"
           },
           {
             "heiti": "rýni á fjárfestingum erlendra aðila vegna þjóðaröryggis og allsherjarreglu",
@@ -3399,6 +4075,10 @@
             "nr": "85"
           },
           {
+            "heiti": "BRCA-arfberar",
+            "nr": "454"
+          },
+          {
             "heiti": "dómstólar",
             "nr": "39"
           },
@@ -3499,6 +4179,10 @@
             "nr": "40"
           },
           {
+            "heiti": "uppbygging hjúkrunarrýma",
+            "nr": "411"
+          },
+          {
             "heiti": "vegalög",
             "nr": "66"
           }
@@ -3545,12 +4229,24 @@
             "nr": "121"
           },
           {
+            "heiti": "barnalífeyrir til erlendra ríkisborgara",
+            "nr": "427"
+          },
+          {
+            "heiti": "barnalífeyrisgreiðslur",
+            "nr": "431"
+          },
+          {
             "heiti": "barnalög og tæknifrjóvgun og notkun kynfrumna og fósturvísa manna til stofnfrumurannsókna",
             "nr": "4"
           },
           {
             "heiti": "barnaverndarlög",
             "nr": "43"
+          },
+          {
+            "heiti": "biðlaun ráðherra",
+            "nr": "420"
           },
           {
             "heiti": "breyting á ýmsum lögum varðandi aldursmörk",
@@ -3587,6 +4283,14 @@
           {
             "heiti": "eingreiðsla og Norðurlandasamningar",
             "nr": "370"
+          },
+          {
+            "heiti": "ellilífeyrir til erlendra ríkisborgara",
+            "nr": "426"
+          },
+          {
+            "heiti": "endurgreidd fjárhagsaðstoð til sveitarfélaga vegna erlendra ríkisborgara",
+            "nr": "429"
           },
           {
             "heiti": "endurnýjun ökuskírteina eftir 60 ára aldur",
@@ -3637,8 +4341,20 @@
             "nr": "196"
           },
           {
+            "heiti": "fjöldi örorkulífeyrisþega",
+            "nr": "415"
+          },
+          {
             "heiti": "fjöleignarhús",
             "nr": "107"
+          },
+          {
+            "heiti": "fjölskyldusameiningar",
+            "nr": "399"
+          },
+          {
+            "heiti": "fjölskyldusameiningar",
+            "nr": "448"
           },
           {
             "heiti": "forvarnateymi grunnskóla",
@@ -3699,6 +4415,10 @@
           {
             "heiti": "húsnæðismál",
             "nr": "306"
+          },
+          {
+            "heiti": "höfnun á rannsókn á afdrifum barna sem hafa verið vistuð á meðferðarheimilum",
+            "nr": "413"
           },
           {
             "heiti": "innflytjendaráð og móttaka flóttafólks",
@@ -3829,6 +4549,10 @@
             "nr": "359"
           },
           {
+            "heiti": "stæðiskort",
+            "nr": "434"
+          },
+          {
             "heiti": "sveigjanleg tilhögun á fæðingar- og foreldraorlofi",
             "nr": "50"
           },
@@ -3853,12 +4577,20 @@
             "nr": "51"
           },
           {
+            "heiti": "tekjuskattur",
+            "nr": "433"
+          },
+          {
             "heiti": "tölfræði innflytjenda",
             "nr": "116"
           },
           {
             "heiti": "umferðarlög",
             "nr": "36"
+          },
+          {
+            "heiti": "uppbygging hjúkrunarrýma",
+            "nr": "411"
           },
           {
             "heiti": "úrbætur í málefnum barna og ungmenna með tal- og málþroskaröskun",
@@ -3877,6 +4609,10 @@
             "nr": "261"
           },
           {
+            "heiti": "virðisaukaskattur",
+            "nr": "432"
+          },
+          {
             "heiti": "VIRK",
             "nr": "345"
           },
@@ -3891,6 +4627,10 @@
           {
             "heiti": "örorkubyrði lífeyrissjóða",
             "nr": "163"
+          },
+          {
+            "heiti": "örorkubætur til erlendra ríkisborgara",
+            "nr": "425"
           }
         ]
       }
@@ -3906,6 +4646,10 @@
           {
             "heiti": "almannavarnir",
             "nr": "287"
+          },
+          {
+            "heiti": "erlent eignarhald í mikilvægum innviðum",
+            "nr": "435"
           },
           {
             "heiti": "farnetsþjónusta",
@@ -3952,6 +4696,10 @@
           {
             "heiti": "áhafnir skipa",
             "nr": "86"
+          },
+          {
+            "heiti": "bílastæðagjöld á ferðamannastöðum",
+            "nr": "442"
           },
           {
             "heiti": "borgarstefna fyrir árin 2025--2040",
@@ -4062,6 +4810,10 @@
             "nr": "182"
           },
           {
+            "heiti": "helmingamokstur",
+            "nr": "430"
+          },
+          {
             "heiti": "hjólaleið milli höfuðborgarsvæðisins og Suðurnesja",
             "nr": "87"
           },
@@ -4126,6 +4878,10 @@
             "nr": "387"
           },
           {
+            "heiti": "stæðiskort",
+            "nr": "434"
+          },
+          {
             "heiti": "Sundabraut",
             "nr": "26"
           },
@@ -4136,6 +4892,10 @@
           {
             "heiti": "tilraunaverkefni um lokun vegkafla sem áformað er að setja undir borgarlínu",
             "nr": "62"
+          },
+          {
+            "heiti": "umferðaröryggisaðgerðir og fallvarnir",
+            "nr": "403"
           },
           {
             "heiti": "uppbygging flugvalla til varna landsins",
@@ -4207,12 +4967,20 @@
         "id": 26,
         "mal": [
           {
+            "heiti": "biðlaun ráðherra",
+            "nr": "420"
+          },
+          {
             "heiti": "framkvæmd laga um opinberar eftirlitsreglur",
             "nr": "158"
           },
           {
             "heiti": "framlög til stjórnmálaflokka",
             "nr": "120"
+          },
+          {
+            "heiti": "kosningalög, sveitarstjórnarlög og lögheimili og aðsetur",
+            "nr": "400"
           },
           {
             "heiti": "laun forseta Íslands og Stjórnarráð Íslands",
@@ -4293,6 +5061,10 @@
             "nr": "39"
           },
           {
+            "heiti": "endurgreidd fjárhagsaðstoð til sveitarfélaga vegna erlendra ríkisborgara",
+            "nr": "429"
+          },
+          {
             "heiti": "endurskoðun á skipulagi leik-, grunn- og framhaldsskóla",
             "nr": "10"
           },
@@ -4353,6 +5125,10 @@
             "nr": "182"
           },
           {
+            "heiti": "helmingamokstur",
+            "nr": "430"
+          },
+          {
             "heiti": "innflytjendaráð og móttaka flóttafólks",
             "nr": "324"
           },
@@ -4367,6 +5143,10 @@
           {
             "heiti": "kirkjugarðar, greftrun og líkbrennsla",
             "nr": "113"
+          },
+          {
+            "heiti": "kosningalög, sveitarstjórnarlög og lögheimili og aðsetur",
+            "nr": "400"
           },
           {
             "heiti": "kostnaður vegna barna hælisleitenda og innflytjenda",
@@ -4393,8 +5173,16 @@
             "nr": "189"
           },
           {
+            "heiti": "Miðstöð menntunar og skólaþjónustu o.fl.",
+            "nr": "443"
+          },
+          {
             "heiti": "nemendur af erlendum uppruna í leik- og grunnskólum",
             "nr": "199"
+          },
+          {
+            "heiti": "niðurstöður og þátttaka sveitarfélaga í lestrarskimunum, gögn um lestrarfærni og mat á árangri íhlutunar",
+            "nr": "395"
           },
           {
             "heiti": "réttindavernd fatlaðs fólks",
@@ -4453,6 +5241,10 @@
             "nr": "387"
           },
           {
+            "heiti": "stæðiskort",
+            "nr": "434"
+          },
+          {
             "heiti": "sveitarstjórnarlög",
             "nr": "24"
           },
@@ -4477,8 +5269,16 @@
             "nr": "29"
           },
           {
+            "heiti": "uppbygging hjúkrunarrýma",
+            "nr": "411"
+          },
+          {
             "heiti": "úrbætur vegna umferðarflæðis og umferðaröryggis í Grafarvogi",
             "nr": "92"
+          },
+          {
+            "heiti": "vegakerfið og ráðstöfun kílómetragjalds",
+            "nr": "483"
           },
           {
             "heiti": "veitingastaðir, gististaðir og skemmtanahald",
@@ -4487,6 +5287,10 @@
           {
             "heiti": "verndar- og orkunýtingaráætlun og raforkulög",
             "nr": "229"
+          },
+          {
+            "heiti": "vinsælir áfangastaðir ferðamanna í eigu ríkisins",
+            "nr": "408"
           },
           {
             "heiti": "virðisaukaskattur",
@@ -4633,6 +5437,10 @@
             "nr": "96"
           },
           {
+            "heiti": "losunarheimildir",
+            "nr": "449"
+          },
+          {
             "heiti": "reglur um losun og eldsneytisnotkun skipa",
             "nr": "392"
           },
@@ -4699,8 +5507,12 @@
             "nr": "102"
           },
           {
-            "heiti": "fullgilding samnings um loftslagsbreytingar, viðskipti og sjálfbæra þróun",
+            "heiti": "fullgilding samningsins um loftslagsbreytingar, viðskipti og sjálfbærni",
             "nr": "219"
+          },
+          {
+            "heiti": "fyrirætlanir Evrópusambandsins varðandi Ísland, Noreg og Grænland",
+            "nr": "447"
           },
           {
             "heiti": "heimskautaeldsneyti",
@@ -4837,6 +5649,10 @@
             "nr": "227"
           },
           {
+            "heiti": "fjárframlög og ívilnanir til íþrótta- og æskulýðsstarfs",
+            "nr": "453"
+          },
+          {
             "heiti": "fjármunir til loftslagsmála",
             "nr": "348"
           },
@@ -4905,8 +5721,12 @@
             "nr": "102"
           },
           {
-            "heiti": "fullgilding samnings um loftslagsbreytingar, viðskipti og sjálfbæra þróun",
+            "heiti": "fullgilding samningsins um loftslagsbreytingar, viðskipti og sjálfbærni",
             "nr": "219"
+          },
+          {
+            "heiti": "fyrirætlanir Evrópusambandsins varðandi Ísland, Noreg og Grænland",
+            "nr": "447"
           },
           {
             "heiti": "hagsmunir hreyfihamlaðra og skipulagsáætlanir í Reykjavík",
@@ -4945,12 +5765,20 @@
             "nr": "96"
           },
           {
+            "heiti": "losunarheimildir",
+            "nr": "449"
+          },
+          {
             "heiti": "mannvirki",
             "nr": "56"
           },
           {
             "heiti": "myndlistarlög",
             "nr": "38"
+          },
+          {
+            "heiti": "norðurskautsmál 2025",
+            "nr": "409"
           },
           {
             "heiti": "rannsókn á jarðlögum og hafsbotni á fyrirhugaðri gangaleið milli lands og Vestmannaeyja",
@@ -4987,6 +5815,10 @@
           {
             "heiti": "Sundabraut",
             "nr": "26"
+          },
+          {
+            "heiti": "umferðaröryggisaðgerðir og fallvarnir",
+            "nr": "403"
           },
           {
             "heiti": "umhverfismat framkvæmda og áætlana og skipulagslög",
