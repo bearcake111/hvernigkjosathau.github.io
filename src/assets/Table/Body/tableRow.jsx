@@ -26,7 +26,10 @@ export function TableRow({
 }) {
   const [open, setOpen] = useState(false);
   const row = index % 2 ? "odd" : "even";
-  const link = content.atkvGrNr ? `/nanar/${content.atkvGrNr}` : ``;
+  const link = content.atkvGrNr
+    ? `/nanar/${content.atkvGrNr}`
+    : `/thingmadur/${content.id}`;
+  const checkedLink = link ? link : ``;
 
   return (
     <>
@@ -40,9 +43,9 @@ export function TableRow({
       >
         {newest && <FoldArrow open={open} onClick={() => setOpen(!open)} />}
         {dags && <DateCell date={content.date} />}
-        {name && <NameCell name={content.name} link={link} />}
+        {name && <NameCell name={content.name} link={checkedLink} />}
         {party && <PartyCell party={content.flokkur} />}
-        {more && <MoreCell link={link} />}
+        {more && <MoreCell link={checkedLink} />}
         {votesColor && <VotesColCell thingmadur={thingmadur.name} mal={mal} />}
         {voteTotal && <VoteTTCell atkv={content.atkv} />}
         {results && <ResultCell atkv={content.atkv} />}
@@ -56,7 +59,7 @@ export function TableRow({
             <td></td>
             {dags && <DateCell date={mal.date} />}
             {mal && <NameCell name={mal.name} />}
-            {more && <MoreCell link={link} />}
+            {more && <MoreCell link={checkedLink} />}
             {votesColor && (
               <VotesColCell thingmadur={thingmadur.name} mal={mal} />
             )}
