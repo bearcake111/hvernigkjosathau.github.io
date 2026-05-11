@@ -10,7 +10,7 @@
 /* lAYOUT CONTAINERS */
 .container {
   max-width: 1200px;
-  margin: 0 auto;
+  margin: 0 0;
   padding: 1.2rem;
 }
 

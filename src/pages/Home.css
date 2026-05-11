@@ -9,6 +9,7 @@ section {
   margin: 1% 2% 0 2%;
   display: flex;
   align-items: center;
+  justify-content: left;
   gap: 1%;
   color: var(--ink);
 }
@@ -17,7 +18,7 @@ section {
   font-size: 1.5rem;
   margin: 2%;
   padding: 0.4rem 0.8rem;
-  border: 2px solid var(--border-muted);
+  border: 3px solid var(--border-muted);
   border-radius: 6px;
   background: transparent;
   color: var(--ink);

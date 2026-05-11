@@ -1,0 +1,20 @@
+.text-container {
+  margin: 3% 8%;
+  padding: 2%;
+  border-radius: 10px;
+  background-color: var(--surface);
+}
+
+h1,
+h2 {
+  margin-bottom: 1%;
+}
+
+h2 {
+  margin-top: 4%;
+}
+
+p {
+  margin: 2% auto;
+  font-size: 1.2rem;
+}
