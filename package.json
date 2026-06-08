@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build && cp dist/index.html dist/404.html",
+    "build": "vite build && node create-404.js",
     "lint": "eslint .",
     "preview": "vite preview",
     "deploy": "gh-pages -d dist"
